@@ -1,13 +1,14 @@
 // movement     
 if (can_move){
-    var move_x = random_range(xstart - 10, xstart + 10);
-    var move_y = random_range(ystart - 10, ystart + 10);
-    var move_speed = 1; 
-    var tilemap = layer_tilemap_get_id("Tiles_col");
-        
+
     var _hor = clamp(move_x - x, -1, 1); 
     var _ver = clamp(move_y - y, -1, 1); 
     move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
+    
+     if (_ver != 0 || _hor != 0)
+    {
+        sprite_index = walk_anim;
+    }
 }
 
 
