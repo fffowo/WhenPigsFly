@@ -28,8 +28,10 @@
           1,0,-9,12,-3,0,-9,12,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_fences","path":"tilesets/tile_fences/tile_fences.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_terrain","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_terrain","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":20,"TileCompressedData":[
-          1,7,-4,8,1,1,-8,8,1,1,-4,8,2,9,14,-18,15,2,16,14,-18,15,2,16,14,-18,15,2,16,14,-18,15,2,16,14,-18,15,
-          2,16,14,-18,15,2,16,14,-18,15,2,16,14,-18,15,2,16,21,-4,22,1,1,-3,22,1,24,-4,22,1,1,-4,22,1,23,
+          1,7,-4,8,1,1,-8,8,1,1,-4,8,2,9,27,-18,28,13,29,54,55,47,47,74,74,101,102,101,102,155,156,-7,55,2,56,
+          54,-15,55,5,253,128,55,56,54,-3,55,3,128,55,128,-9,55,5,280,128,129,56,54,-15,55,5,307,129,128,56,54,
+          -5,55,1,128,-10,55,-2,129,5,56,54,55,48,49,-14,55,6,128,56,54,55,75,76,-11,55,1,128,-3,55,2,56,81,-8,
+          82,1,175,-9,82,1,83,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_house","path":"tilesets/tile_house/tile_house.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4285584576,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

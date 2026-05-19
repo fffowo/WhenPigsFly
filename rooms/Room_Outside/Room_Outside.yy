@@ -64,13 +64,14 @@
           1,12,-39,-2147483648,-11,12,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_fences","path":"tilesets/tile_fences/tile_fences.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_barn_top","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_barn_top","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":50,"TileCompressedData":[
-          -88,-2147483648,1,4,-10,5,1,6,-38,-2147483648,1,11,-10,12,1,13,-38,-2147483648,1,18,-10,19,1,20,-38,
-          -2147483648,1,25,-10,26,1,27,-38,-2147483648,1,32,-10,33,1,34,-38,-2147483648,-12,0,-41,-2147483648,
-          -2,0,-1507,-2147483648,
+          -88,-2147483648,3,4,5,108,-3,109,1,110,-4,5,1,6,-38,-2147483648,3,11,12,135,-3,136,1,137,-4,12,1,13,
+          -38,-2147483648,3,18,19,162,-3,163,1,164,-4,19,1,20,-38,-2147483648,3,25,26,189,-3,190,1,191,-4,26,1,
+          27,-38,-2147483648,3,32,33,216,-3,217,1,218,-4,33,1,34,-38,-2147483648,-12,0,-41,-2147483648,-2,0,-1507,
+          -2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_house","path":"tilesets/tile_house/tile_house.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_barn","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_barn","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":50,"TileCompressedData":[
           -88,-2147483648,-12,0,-36,-2147483648,-14,0,-36,-2147483648,-14,0,-36,-2147483648,-14,0,-38,-2147483648,
-          4,14,22,22,1,-4,22,4,1,22,22,16,-38,-2147483648,5,21,22,22,1,24,-3,22,4,1,22,22,23,-1550,-2147483648,
+          3,14,22,54,-3,82,-2,22,4,1,22,22,16,-38,-2147483648,12,21,22,81,82,24,82,22,22,1,22,22,23,-1550,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_house","path":"tilesets/tile_house/tile_house.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_trees","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_trees","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":50,"TileCompressedData":[
           -222,-2147483648,3,45,46,47,-47,-2147483648,6,57,58,59,-2147483648,1,2,-44,-2147483648,6,69,70,71,-2147483648,
