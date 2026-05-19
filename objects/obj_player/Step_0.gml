@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_space))
     create_dialogue([
         {
             name: "You",
-            msg: "Hello world!"
+            msg: $"I'm {happiness} happy.'"
         }
     ])
 }
