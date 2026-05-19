@@ -64,6 +64,7 @@
     {"id":{"name":"spr_npc3","path":"sprites/spr_npc3/spr_npc3.yy",},},
     {"id":{"name":"spr_obj_chicken_idle","path":"sprites/spr_obj_chicken_idle/spr_obj_chicken_idle.yy",},},
     {"id":{"name":"spr_obj_chicken_walk","path":"sprites/spr_obj_chicken_walk/spr_obj_chicken_walk.yy",},},
+    {"id":{"name":"spr_piggies","path":"sprites/spr_piggies/spr_piggies.yy",},},
     {"id":{"name":"spr_player_back","path":"sprites/spr_player_back/spr_player_back.yy",},},
     {"id":{"name":"spr_player_idle_front","path":"sprites/spr_player_idle_front/spr_player_idle_front.yy",},},
     {"id":{"name":"spr_player_port","path":"sprites/spr_player_port/spr_player_port.yy",},},
