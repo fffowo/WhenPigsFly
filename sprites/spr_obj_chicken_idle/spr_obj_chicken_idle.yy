@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_obj_chicken_idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":14,
   "bbox_left":1,
   "bbox_right":11,
-  "bbox_top":3,
+  "bbox_top":12,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

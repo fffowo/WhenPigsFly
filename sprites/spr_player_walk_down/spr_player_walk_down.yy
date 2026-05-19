@@ -64,7 +64,7 @@
     },
     "name":"spr_player_walk_down",
     "playback":1,
-    "playbackSpeed":6.0,
+    "playbackSpeed":7.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
