@@ -1,4 +1,4 @@
-draw_shadow(1);
+draw_shadow(x_offset, y_offset, draw);
 draw_self();
 
 if (can_talk && !instance_exists(obj_dialogue))

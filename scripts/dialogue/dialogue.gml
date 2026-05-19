@@ -33,6 +33,19 @@ npc_dialogue = [
     }]
 ];
 
+npc_dialogue1 = [
+    // first
+    [{
+        name: "NPC",
+        msg: "This is a test message! 2"
+    }],
+    // second
+    [{
+        name: "NPC",
+        msg: "This is a second test message! 2"
+    }]
+];
+
 // --------------------------------------------------------------
 
 // --------- HENRIETTA -----------------------------------------------------
