@@ -1,1 +1,3 @@
-room_goto(go_to); 
+room_goto(target_room); 
+other.x = target_x;
+other.y = target_y;
