@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sib_bitty",
+  "%Name":"obj_bitty",
   "eventList":[],
   "managed":true,
-  "name":"obj_sib_bitty",
+  "name":"obj_bitty",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",

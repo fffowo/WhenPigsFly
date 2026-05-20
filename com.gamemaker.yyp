@@ -29,6 +29,7 @@
   "resources":[
     {"id":{"name":"Font_debug","path":"fonts/Font_debug/Font_debug.yy",},},
     {"id":{"name":"Font_sprout","path":"fonts/Font_sprout/Font_sprout.yy",},},
+    {"id":{"name":"obj_bitty","path":"objects/obj_bitty/obj_bitty.yy",},},
     {"id":{"name":"obj_camilla","path":"objects/obj_camilla/obj_camilla.yy",},},
     {"id":{"name":"obj_data_carry","path":"objects/obj_data_carry/obj_data_carry.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
@@ -40,9 +41,8 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_npc3","path":"objects/obj_npc3/obj_npc3.yy",},},
+    {"id":{"name":"obj_olive","path":"objects/obj_olive/obj_olive.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_sib_bitty","path":"objects/obj_sib_bitty/obj_sib_bitty.yy",},},
-    {"id":{"name":"obj_sib_olive","path":"objects/obj_sib_olive/obj_sib_olive.yy",},},
     {"id":{"name":"Room_Barn","path":"rooms/Room_Barn/Room_Barn.yy",},},
     {"id":{"name":"Room_Outside","path":"rooms/Room_Outside/Room_Outside.yy",},},
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},

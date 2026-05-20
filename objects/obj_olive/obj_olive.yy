@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sib_olive",
+  "%Name":"obj_olive",
   "eventList":[],
   "managed":true,
-  "name":"obj_sib_olive",
+  "name":"obj_olive",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
