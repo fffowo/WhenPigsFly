@@ -21,7 +21,7 @@ _dx += 128;
 _dy += 42;
 var _name = messages[current_message].name;
 draw_set_halign(fa_left);
-draw_set_color(global.char_colors[$ _name]);
+draw_set_color(color);
 draw_text(_dx, _dy, _name);
 draw_set_color(c_white);
 

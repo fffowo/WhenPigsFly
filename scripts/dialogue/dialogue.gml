@@ -1,10 +1,11 @@
 // functions and variables are GLOBAL and can be read by any object!!
 
-function create_dialogue(_messages){
+function create_dialogue(_messages, _color = c_black){
 
     if (instance_exists(obj_dialogue)) return;
         
     var _inst = instance_create_depth(0, 0, 0, obj_dialogue);
+    _inst.color = _color;
     _inst.messages = _messages;
     _inst.current_message = 0; // is set to -1 in obj
     
@@ -211,8 +212,8 @@ dg_olive = [
             [{
         name: "Olive",
         msg: "The fence behind the tree is broken..."
-    }],
-                [{
+    },
+    {
         name: "Olive",
         msg: "I'm worried..."
     }],

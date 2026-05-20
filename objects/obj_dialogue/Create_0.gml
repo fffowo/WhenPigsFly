@@ -2,6 +2,7 @@ messages = [];
 current_message = -1; // this is an index!!
 current_char = 0;
 draw_message = "";
+color = c_black;
 
 char_speed = 0.5;
 input_key = vk_space;
