@@ -16,7 +16,7 @@ char_colors = {
     "You": c_aqua,
     "Henrietta": #353738,
     "NPC": c_black,
-    "Sibling": c_lime,
+    "Sibling": c_gray,
     "Camilla": #713970
 }
 
@@ -156,3 +156,24 @@ dg_cam = [
     }]
 ];
 
+// ------------ SIBLINGS ----------------------------------
+
+dg_bitty = [
+    // first
+    [{
+        name: "Sibling",
+        msg: "Hewwo. owo Is Bitty."
+    }],
+    // second
+    //[{
+        //name: "Sibling",
+        //msg: "Bitty waba??"
+    //}]
+];
+
+dg_olive = [
+        [{
+        name: "Sibling",
+        msg: "Hi! I'm Olive."
+    }],
+]

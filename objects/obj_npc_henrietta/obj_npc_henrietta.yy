@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc1",
-  "eventList":[],
+  "%Name":"obj_npc_henrietta",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_npc1",
+  "name":"obj_npc_henrietta",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_npc1",
-    "path":"sprites/spr_npc1/spr_npc1.yy",
+    "name":"spr_obj_chicken_idle",
+    "path":"sprites/spr_obj_chicken_idle/spr_obj_chicken_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

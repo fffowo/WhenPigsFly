@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chicken",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_sib_bitty",
+  "eventList":[],
   "managed":true,
-  "name":"obj_chicken",
+  "name":"obj_sib_bitty",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_obj_chicken_idle",
-    "path":"sprites/spr_obj_chicken_idle/spr_obj_chicken_idle.yy",
+    "name":"spr_npc_bitty",
+    "path":"sprites/spr_npc_bitty/spr_npc_bitty.yy",
   },
   "spriteMaskId":null,
   "visible":true,

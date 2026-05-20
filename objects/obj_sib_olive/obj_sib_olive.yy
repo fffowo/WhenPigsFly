@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"__obj_chicken",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_sib_olive",
+  "eventList":[],
   "managed":true,
-  "name":"__obj_chicken",
+  "name":"obj_sib_olive",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obj_chicken_idle",
-    "path":"sprites/spr_obj_chicken_idle/spr_obj_chicken_idle.yy",
+    "name":"spr_npc_olive",
+    "path":"sprites/spr_npc_olive/spr_npc_olive.yy",
   },
   "spriteMaskId":null,
   "visible":true,
