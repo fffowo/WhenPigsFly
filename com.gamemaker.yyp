@@ -45,6 +45,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room_Barn","path":"rooms/Room_Barn/Room_Barn.yy",},},
     {"id":{"name":"Room_Outside","path":"rooms/Room_Outside/Room_Outside.yy",},},
+    {"id":{"name":"Room_secret","path":"rooms/Room_secret/Room_secret.yy",},},
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"drawing","path":"scripts/drawing/drawing.yy",},},
     {"id":{"name":"_p","path":"sprites/_p/_p.yy",},},
@@ -97,6 +98,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_Outside","path":"rooms/Room_Outside/Room_Outside.yy",},},
     {"roomId":{"name":"Room_Barn","path":"rooms/Room_Barn/Room_Barn.yy",},},
+    {"roomId":{"name":"Room_secret","path":"rooms/Room_secret/Room_secret.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

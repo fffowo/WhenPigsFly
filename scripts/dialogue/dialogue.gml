@@ -176,4 +176,9 @@ dg_olive = [
         name: "Sibling",
         msg: "Hi! I'm Olive."
     }],
+    // 1
+            [{
+        name: "Sibling",
+        msg: "The fence behind the tree is broken..."
+    }],
 ]
