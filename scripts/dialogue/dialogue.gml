@@ -14,10 +14,17 @@ function create_dialogue(_messages){
 
 char_colors = {
     "You": c_aqua,
-    "Henrietta": #353738,
     "NPC": c_black,
     "Sibling": c_gray,
-    "Camilla": #713970
+    
+    "Olive" : #713970,
+    "Bitty": #713970,
+    "Milo": #713970,
+    "Daisy": #713970,
+    
+    "Camilla": #713970,
+    "Henrietta": #353738,
+    "Leo": #353738
 }
 
 npc_dialogue = [
@@ -64,78 +71,7 @@ dg_henrietta = [
 ];
 
 
-// ----------------------- NPC 2 ----------------------
-dg_sib2 = [
-    // first talk 0
-    [{
-        name: "Sibling",
-        msg: "I had a fight with our sibling."
-    },
-        {
-        name: "Sibling",
-        msg: "I saw them run off toward the top right..."
-    },
-        {
-        name: "Sibling",
-        msg: "Can you go check on them for me?"
-    }],
-    // talk again 1
-    [{
-        name: "Sibling",
-        msg: "Can you go check on them for me?"
-    }],
-    // after quest 2
-    [{
-        name: "Sibling",
-        msg: "They're okay? Thank you for checking."
-    }]
-];
 
-// ----------------------- NPC 3 ----------------------
-
-dg_sib3 = [
-    // first 0
-    [{
-        name: "Sibling",
-        msg: "*sniff sniff*"
-    },
-    {
-        name: "Sibling",
-        msg: "..."
-    },
-    {
-        name: "You",
-        msg: "(They're crying...)"
-    }],
-    // second 1
-    [{
-        name: "You",
-        msg: "(They're  not looking at me...)"
-        }
-    ],
-    // quest started 2
-    [{
-        name: "Sibling",
-        msg: "*sniff sniff*"
-    },
-        {
-        name: "Sibling",
-        msg: "Oh? Hey you. *snffff*"
-    },
-        {
-        name: "Sibling",
-        msg: "Are you checking up on me? That's so nice of you."
-    },
-        {
-        name: "Sibling",
-        msg: "Thank you! I feel better already."
-    }],
-    // quest finished 3
-    [{
-        name: "Sibling",
-        msg: "Thank you! I feel better already."
-    }]
-]
 // ------------ CAMILLA ----------------------------------
 
 dg_cam = [
@@ -156,29 +92,128 @@ dg_cam = [
     }]
 ];
 
+// ------------ LEO ----------------------------------
+
+dg_leo = [
+    // first 0
+    [{
+        name: "Leo",
+        msg: "Oh no oh no oh no..."
+    }],
+    // second 1
+    [{
+        name: "Leo",
+        msg: "I lost my glasses..."
+    }
+    ,
+    { 
+        name: "Leo",
+        msg: "Oh no..."
+    }]
+];
+
 // ------------ SIBLINGS ----------------------------------
+
+
+// ----------------------- Milo ----------------------
+dg_milo = [
+    // first talk 0
+    [{
+        name: "Milo",
+        msg: "I had a fight with Daisy."
+    },
+        {
+        name: "Milo",
+        msg: "I saw her run off toward the top right..."
+    },
+        {
+        name: "Milo",
+        msg: "Can you go check on er for me?"
+    }],
+    // talk again 1
+    [{
+        name: "Milo",
+        msg: "Can you go check on re for me?"
+    }],
+    // after quest 2
+    [{
+        name: "Milo",
+        msg: "She's okay? Thank you for checking."
+    }]
+];
+
+
+// ----------------------- Daisy ----------------------
+
+dg_daisy = [
+    // first 0
+    [{
+        name: "Daisy",
+        msg: "*sniff sniff*"
+    },
+    {
+        name: "Daisy",
+        msg: "..."
+    },
+    {
+        name: "You",
+        msg: "(She's crying...)"
+    }],
+    // second 1
+    [{
+        name: "You",
+        msg: "(She's not looking at me...)"
+        }
+    ],
+    // quest started 2
+    [{
+        name: "Daisy",
+        msg: "*sniff sniff*"
+    },
+        {
+        name: "Daisy",
+        msg: "Oh? Hey you. *snffff*"
+    },
+        {
+        name: "Daisy",
+        msg: "Are you checking up on me? That's so nice of you."
+    },
+        {
+        name: "Daisy",
+        msg: "Thank you! I feel better already."
+    }],
+    // quest finished 3
+    [{
+        name: "Daisy",
+        msg: "Thank you! I feel better already."
+    }]
+]
 
 dg_bitty = [
     // first
     [{
-        name: "Sibling",
+        name: "Bitty",
         msg: "Hewwo. owo Is Bitty."
     }],
-    // second
-    //[{
-        //name: "Sibling",
-        //msg: "Bitty waba??"
-    //}]
+     //second
+    [{
+        name: "Bitty",
+        msg: "Bitty waba??"
+    }]
 ];
 
 dg_olive = [
         [{
-        name: "Sibling",
+        name: "Olive",
         msg: "Hi! I'm Olive."
     }],
     // 1
             [{
-        name: "Sibling",
+        name: "Olive",
         msg: "The fence behind the tree is broken..."
+    }],
+                [{
+        name: "Olive",
+        msg: "I'm worried..."
     }],
 ]
