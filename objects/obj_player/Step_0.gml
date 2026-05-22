@@ -1,3 +1,4 @@
+tilemap = layer_tilemap_get_id("Tiles_col");
 msg = $"I'm {happiness} happy.";
 
     //if (happiness <= 25) {msg = "I'm not very happy...";}
