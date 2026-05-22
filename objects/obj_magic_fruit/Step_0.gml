@@ -12,6 +12,7 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
         ], c_lime);
         
         obj_player.happiness += 10;
+        obj_player.inventory = self;
     }
 }
 

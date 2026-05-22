@@ -1,11 +1,11 @@
 // functions and variables are GLOBAL and can be read by any object!!
 
-function create_dialogue(_messages, _color = c_black){
+function create_dialogue(_messages){
 
     if (instance_exists(obj_dialogue)) return;
         
     var _inst = instance_create_depth(0, 0, 0, obj_dialogue);
-    _inst.color = _color;
+    //_inst.color = _color;
     _inst.messages = _messages;
     _inst.current_message = 0; // is set to -1 in obj
     
@@ -154,12 +154,12 @@ dg_milo = [
     },
         {
         name: "Milo",
-        msg: "Can you go check on er for me?"
+        msg: "Can you go check on her for me?"
     }],
     // talk again 1
     [{
         name: "Milo",
-        msg: "Can you go check on re for me?"
+        msg: "Can you go check on her for me?"
     }],
     // after quest 2
     [{
@@ -202,7 +202,7 @@ dg_daisy = [
     },
         {
         name: "Daisy",
-        msg: "Are you checking up on me? That's so nice of you."
+        msg: "Are you checking up on me?\nThat's so nice of you."
     },
         {
         name: "Daisy",

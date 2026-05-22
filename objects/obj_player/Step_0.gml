@@ -15,15 +15,17 @@ msg = $"I'm {happiness} happy.";
 if (instance_exists(obj_dialogue)) exit; 
 
 // TODO
-if (keyboard_check_pressed(vk_enter))
+if (keyboard_check_pressed(vk_escape))
 {
-    create_dialogue([
-        {
-            name: "You",
-            msg: msg
-        }
-    ],
-    c_aqua)
+    //create_dialogue([
+        //{
+            //name: "You",
+            //msg: msg
+        //}
+    //],
+    //c_aqua)
+    
+    room_goto(Room_inventory);
 }
 
 if (keyboard_check_pressed(vk_space))
