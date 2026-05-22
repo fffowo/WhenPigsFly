@@ -251,3 +251,18 @@ dg_olive = [
         msg: "I'm worried..."
     }],
 ]
+
+// ---------- kIWI ---------------
+
+dg_kiwi = [
+        [{
+        name: "Kiwi",
+        msg: "(•‿•)"
+    }],
+    // 1
+            [{
+        name: "Kiwi",
+        msg: "(❛ε❛“)?"
+    },
+],
+]

@@ -9,6 +9,7 @@
     {"name":"inst_7199D483","path":"rooms/Room_water/Room_water.yy",},
     {"name":"inst_7783FFD1","path":"rooms/Room_water/Room_water.yy",},
     {"name":"inst_77471362","path":"rooms/Room_water/Room_water.yy",},
+    {"name":"inst_5E14F241","path":"rooms/Room_water/Room_water.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,12 +18,13 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_room","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"Room_Outside","path":"rooms/Room_Outside/Room_Outside.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room_Outside",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_y","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_x","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":752.0,"y":386.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":784.0,"y":398.0,},
         {"$GMRInstance":"v4","%Name":"inst_7783FFD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7783FFD1","objectId":{"name":"obj_leonard","path":"objects/obj_leonard/obj_leonard.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.dg_leonard",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"walk_anim","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resource":{"name":"spr_npc_leonard","path":"sprites/spr_npc_leonard/spr_npc_leonard.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_leonard",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":454.0,"y":236.0,},
         {"$GMRInstance":"v4","%Name":"inst_77471362","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77471362","objectId":{"name":"obj_camilla","path":"objects/obj_camilla/obj_camilla.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":97.0,"y":398.5,},
+        {"$GMRInstance":"v4","%Name":"inst_5E14F241","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E14F241","objectId":{"name":"obj_kiwi","path":"objects/obj_kiwi/obj_kiwi.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":372.0,"y":503.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_trees","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_trees","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":50,"TileCompressedData":[
           4,-2147483648,7,8,9,-16,-2147483648,3,7,8,9,-3,-2147483648,3,7,8,9,-9,-2147483648,3,7,8,9,-10,-2147483648,
