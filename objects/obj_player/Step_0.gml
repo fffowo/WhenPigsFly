@@ -1,16 +1,37 @@
+msg = $"I'm {happiness} happy.";
+
+    //if (happiness <= 25) {msg = "I'm not very happy...";}
+        //
+    //else if (happiness <= 50) {msg = "I'm pretty happy!";}
+//
+    //else if (happiness <= 75) {msg = "I'm so happy already!!";}
+//
+    //else if (happiness <= 99) {msg = "Ohhh so close!! I can feel it!";}
+        //
+    //else if (happiness >= 100) {msg = "I'm so happy I could fly!!";}
+
+
 if (instance_exists(obj_dialogue)) exit; 
 
 // TODO
-if (keyboard_check_pressed(vk_space))
+if (keyboard_check_pressed(vk_enter))
 {
     create_dialogue([
         {
             name: "You",
-            msg: $"I'm {happiness} happy."
+            msg: msg
         }
-    ])
+    ],
+    c_aqua)
 }
 
+if (keyboard_check_pressed(vk_space))
+{
+    // TODO: snorf!
+    var _r = round(random_range(0, 2));
+    soundfile = snorfs[_r];
+    audio_play_sound(soundfile, 1, false);
+}
 
 var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);

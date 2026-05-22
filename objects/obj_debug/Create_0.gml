@@ -4,4 +4,4 @@ y = 20;
 _x = 20;
 _y = 30;
 
-test = "";
+test = obj_player.happiness;
