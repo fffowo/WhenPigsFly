@@ -115,6 +115,31 @@ dg_leo = [
 
 // ------------ SIBLINGS ----------------------------------
 
+// ------------------ leonard -----------------------------
+
+dg_leonard = [
+    [{
+        name: "Leonard",
+        msg: "Hey you."   
+    }],
+    [{ 
+        name: "Leonard",
+        msg: "Don't bother me."  
+    }]
+]
+
+// ------------ nooodle ----------------
+
+dg_noodle = [
+    [{
+        name: "Noodle",
+        msg: "I'm not letting you trough."   
+    }],
+    [{ 
+        name: "Noodle",
+        msg: "Nuh-uh."  
+    }]
+]
 
 // ----------------------- Milo ----------------------
 dg_milo = [
@@ -190,18 +215,26 @@ dg_daisy = [
     }]
 ]
 
+// ------------------- BITTY ----------------------------------------------
+
 dg_bitty = [
     // first
     [{
         name: "Bitty",
-        msg: "Hewwo. owo Is Bitty."
+        msg: "Everyone says I'm tiny.."
+    },
+    {
+        name: "Bitty",
+        msg: "But I'm tall, right?"
     }],
      //second
     [{
         name: "Bitty",
-        msg: "Bitty waba??"
+        msg: "... right?"
     }]
 ];
+
+// ------------- OLIVE -------------------------
 
 dg_olive = [
         [{

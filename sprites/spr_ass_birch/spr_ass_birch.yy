@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_terrain",
+  "%Name":"spr_ass_birch",
   "bboxMode":0,
-  "bbox_bottom":1327,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":879,
-  "bbox_top":16,
+  "bbox_right":156,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"587a0b34-24c7-4918-a4b7-3aaffbb719ad","name":"587a0b34-24c7-4918-a4b7-3aaffbb719ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1400,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1156beff-1b1d-4cd6-afaf-b46bee5ff6e8","blendMode":0,"displayName":"default","isLocked":false,"name":"1156beff-1b1d-4cd6-afaf-b46bee5ff6e8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a1aecb02-edde-4c30-ad28-7b514cc63a11","blendMode":0,"displayName":"default","isLocked":false,"name":"a1aecb02-edde-4c30-ad28-7b514cc63a11","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_terrain",
+  "name":"spr_ass_birch",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_terrain",
+    "%Name":"spr_ass_birch",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_terrain",
+    "name":"spr_ass_birch",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"587a0b34-24c7-4918-a4b7-3aaffbb719ad","path":"sprites/spr_terrain/spr_terrain.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c386b1d6-e222-4524-90f7-b475d85da20d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","path":"sprites/spr_ass_birch/spr_ass_birch.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"59df4a85-f637-4866-89e4-eb7da0a9cb7d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":896,
+  "width":160,
 }
