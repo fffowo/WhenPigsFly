@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":199.83751,
+  "duration":86.4,
   "exportDir":"",
   "name":"song_applecider",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_applecider.ogg",
+  "soundFile":"song_applecider.wav",
   "volume":1.0,
 }

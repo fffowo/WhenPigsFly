@@ -261,12 +261,12 @@ dg_olive = [
 dg_kiwi = [
         [{
         name: "Kiwi",
-        msg: "(•‿•)"
+        msg: "ü"
     }],
-    // 1
-            [{
+    // 1 
+    [{
         name: "Kiwi",
-        msg: "(❛ε❛“)?"
+        msg: "î"
     },
 ],
 ]

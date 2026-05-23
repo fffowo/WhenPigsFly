@@ -4,4 +4,4 @@ happiness = 0;
 
 inventory = [];
 
-snorfs = [snd_snorf01, snd_snorf02, snd_snorf03];
+snorfs = [snd_snorf01, snd_snorf03];

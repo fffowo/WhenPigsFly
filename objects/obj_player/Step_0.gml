@@ -13,7 +13,7 @@ if (keyboard_check_pressed(vk_escape))
 if (keyboard_check_pressed(vk_space))
 {
     // TODO: snorf!
-    var _r = round(random_range(0, 2));
+    var _r = round(random_range(0, 1));
     soundfile = snorfs[_r];
     audio_play_sound(soundfile, 1, false);
 }
