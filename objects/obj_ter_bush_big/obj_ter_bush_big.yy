@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ass_trees_5",
-    "path":"sprites/spr_ass_trees_5/spr_ass_trees_5.yy",
+    "name":"spr_ass_trees_05",
+    "path":"sprites/spr_ass_trees_05/spr_ass_trees_05.yy",
   },
   "spriteMaskId":null,
   "visible":true,

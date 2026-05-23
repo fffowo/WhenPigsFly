@@ -79,7 +79,7 @@ dg_henrietta = [
 
 // ------------ CAMILLA ----------------------------------
 
-dg_cam = [
+dg_camilla = [
     // first 0
     [{
         name: "Camilla",
