@@ -1,4 +1,3 @@
-tilemap = layer_tilemap_get_id("Tiles_col");
 
 
 if (instance_exists(obj_dialogue)) exit;
@@ -26,7 +25,22 @@ var _dir = point_direction(0, 0, _hor, _ver);
 _hor = lengthdir_x(_len, _dir);
 _ver = lengthdir_y(_len, _dir);
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined);
+xspeed = _hor * move_speed;
+yspeed = _ver * move_speed; 
+
+//move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined);
+
+if (place_meeting(x + xspeed, y, [tilemap, obj_wall_sm]))
+{
+    xspeed = 0;
+}
+if (place_meeting(x, y + yspeed, [tilemap, obj_wall_sm]))
+{
+    yspeed = 0;
+}
+
+x += xspeed;
+y += yspeed;
 
 // we have input and the player is moving
 if (_hor != 0 or _ver != 0)
