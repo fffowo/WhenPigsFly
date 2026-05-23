@@ -1,4 +1,5 @@
 if (instance_exists(obj_dialogue)) exit;
+    
 
 // TODO: remove player obj??
 
@@ -22,11 +23,11 @@ else if (happiness <= 99) {msg = "Ohhh so close!! I can feel it!";}
 else if (happiness >= 100) {msg = "I'm so happy I could fly!!";}
 
 
-if (global.milo_quest_started)
+if (global.milo.quest_started)
 {
     quest_milo = "I talked to Milo. He wants me to check up on Daisy.";
 }
-if (global.milo_quest_done)
+if (global.milo.quest_done)
 {
     quest_milo = "Daisy is fine now.";
 }

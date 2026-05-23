@@ -2,5 +2,14 @@ function questlog(){
 
 }
 
-milo_quest_started = false;
-milo_quest_done = false;
+
+milo = {
+    quest_started : false,
+    quest_done : false
+    
+};
+
+leo = {
+    quest_started : false,
+    quest_done : false
+};

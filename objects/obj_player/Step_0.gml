@@ -1,8 +1,8 @@
 tilemap = layer_tilemap_get_id("Tiles_col");
 
 
-if (instance_exists(obj_dialogue)) exit; 
-if (instance_exists(obj_inventory)) exit; 
+if (instance_exists(obj_dialogue)) exit;
+if (instance_exists(obj_inventory)) exit;
 
 // TODO
 if (keyboard_check_pressed(vk_escape))
@@ -32,31 +32,33 @@ move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undef
 if (_hor != 0 or _ver != 0)
 {
     if (_ver > 0) sprite_index = spr_player_walk_down;
-        else if (_ver < 0) sprite_index = spr_player_walk_up;
-             else if (_hor > 0) sprite_index = spr_player_walk_right;
-                 else if (_hor < 0) sprite_index = spr_player_walk_left;
+    else if (_ver < 0) sprite_index = spr_player_walk_up;
+    else if (_hor > 0) sprite_index = spr_player_walk_right;
+    else if (_hor < 0) sprite_index = spr_player_walk_left;
 } 
 else 
 { 
+
+    if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_front;
+    else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
+    else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
+    else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
     
     // idle animations 
-    // TODO:
-    // angle
-
-    var _r = round(random_range(0, 1));
-    _r = 1;    
-    switch (_r) 
-{ 
-        case 0:
-            sprite_index = spr_player_idle_front;
-        break; 
-        
-        case 1:
-            sprite_index = spr_player_idle_front_alt;
-        break;
-        
-        default:
-            sprite_index = Sprite20;
-            break;
-    }
+    //var _r = round(random_range(0, 1));
+    //_r = 1;    
+    //switch (_r) 
+//{ 
+        //case 0:
+            //sprite_index = spr_player_idle_front;
+        //break; 
+        //
+        //case 1:
+            //sprite_index = spr_player_idle_front_alt;
+        //break;
+        //
+        //default:
+            //sprite_index = Sprite20;
+            //break;
+    //}
 } 
