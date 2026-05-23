@@ -8,8 +8,8 @@
   "name":"obj_milo",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"chars",
+    "path":"folders/objects/chars.yy",
   },
   "parentObjectId":{
     "name":"obj_npc_parent",
