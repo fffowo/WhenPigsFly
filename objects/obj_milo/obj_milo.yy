@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc2",
+  "%Name":"obj_milo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc2",
+  "name":"obj_milo",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",

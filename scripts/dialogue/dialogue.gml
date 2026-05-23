@@ -22,10 +22,14 @@ char_colors = {
     "Bitty": #713970,
     "Milo": #713970,
     "Daisy": #713970,
+    "Kiwi": #353738,
+    "Leonard": #353738,
+    "Noodle": #353738,
     
     "Camilla": #713970,
     "Henrietta": #353738,
-    "Leo": #353738
+    "Leo": #353738,
+
 }
 
 npc_dialogue = [

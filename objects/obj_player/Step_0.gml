@@ -1,30 +1,12 @@
 tilemap = layer_tilemap_get_id("Tiles_col");
-msg = $"I'm {happiness} happy.";
-
-    //if (happiness <= 25) {msg = "I'm not very happy...";}
-        //
-    //else if (happiness <= 50) {msg = "I'm pretty happy!";}
-//
-    //else if (happiness <= 75) {msg = "I'm so happy already!!";}
-//
-    //else if (happiness <= 99) {msg = "Ohhh so close!! I can feel it!";}
-        //
-    //else if (happiness >= 100) {msg = "I'm so happy I could fly!!";}
 
 
 if (instance_exists(obj_dialogue)) exit; 
+if (instance_exists(obj_inventory)) exit; 
 
 // TODO
 if (keyboard_check_pressed(vk_escape))
 {
-    //create_dialogue([
-        //{
-            //name: "You",
-            //msg: msg
-        //}
-    //],
-    //c_aqua)
-    
     room_goto(Room_inventory);
 }
 
