@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_ass_birch_1",
+  "%Name":"spr_ass_birch_09",
   "bboxMode":2,
-  "bbox_bottom":45,
-  "bbox_left":14,
-  "bbox_right":31,
-  "bbox_top":40,
+  "bbox_bottom":13,
+  "bbox_left":2,
+  "bbox_right":13,
+  "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c17badc-b34e-458e-8837-b67a8db60e10","name":"0c17badc-b34e-458e-8837-b67a8db60e10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":48,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a1aecb02-edde-4c30-ad28-7b514cc63a11","blendMode":0,"displayName":"default","isLocked":false,"name":"a1aecb02-edde-4c30-ad28-7b514cc63a11","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d46d091e-bf1b-45fc-98ef-dd073ea0b4bb","blendMode":0,"displayName":"default","isLocked":false,"name":"d46d091e-bf1b-45fc-98ef-dd073ea0b4bb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_ass_birch_1",
+  "name":"spr_ass_birch_09",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_ass_birch",
+    "%Name":"spr_ass_birch_09",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_ass_birch",
+    "name":"spr_ass_birch_09",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2aff92a6-b8a3-4b1d-ba1e-a3ab3a491a77","path":"sprites/spr_ass_birch_1/spr_ass_birch_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"59df4a85-f637-4866-89e4-eb7da0a9cb7d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c17badc-b34e-458e-8837-b67a8db60e10","path":"sprites/spr_ass_birch_09/spr_ass_birch_09.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"83b9bfaa-e6a4-43ef-a557-457308402aa3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":48,
+  "width":16,
 }

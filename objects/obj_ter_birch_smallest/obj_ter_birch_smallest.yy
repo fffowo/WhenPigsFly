@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ass_birch_2",
-    "path":"sprites/spr_ass_birch_2/spr_ass_birch_2.yy",
+    "name":"spr_ass_birch_02",
+    "path":"sprites/spr_ass_birch_02/spr_ass_birch_02.yy",
   },
   "spriteMaskId":null,
   "visible":true,

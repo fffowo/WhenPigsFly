@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ter_birch_smaller",
+  "%Name":"obj_ter_birch_bush_small",
   "eventList":[],
   "managed":true,
-  "name":"obj_ter_birch_smaller",
+  "name":"obj_ter_birch_bush_small",
   "overriddenProperties":[],
   "parent":{
     "name":"trees",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ass_birch_03",
-    "path":"sprites/spr_ass_birch_03/spr_ass_birch_03.yy",
+    "name":"spr_ass_birch_09",
+    "path":"sprites/spr_ass_birch_09/spr_ass_birch_09.yy",
   },
   "spriteMaskId":null,
   "visible":true,
