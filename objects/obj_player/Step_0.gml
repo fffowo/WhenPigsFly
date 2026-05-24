@@ -48,6 +48,15 @@ if (_hor != 0 or _ver != 0)
     else if (_ver < 0) sprite_index = spr_player_walk_up;
     else if (_hor > 0) sprite_index = spr_player_walk_right;
     else if (_hor < 0) sprite_index = spr_player_walk_left;
+        
+    if (counter_footsteps == 0)
+    {
+        var _r = round(random_range(0, 2));
+        soundfile = steps[_r];
+        audio_play_sound(soundfile, 8, false);
+        counter_footsteps = 30; // number of steps to wait before trying to play the sound again
+    }
+    else if (counter_footsteps > 0) counter_footsteps--;
 } 
 else 
 { 
@@ -75,3 +84,4 @@ else
             //break;
     //}
 } 
+
