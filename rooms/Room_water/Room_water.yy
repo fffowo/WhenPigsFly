@@ -89,6 +89,7 @@
     {"name":"inst_7CB4ED9E","path":"rooms/Room_water/Room_water.yy",},
     {"name":"inst_1C2BCAA5","path":"rooms/Room_water/Room_water.yy",},
     {"name":"inst_6278C2F2","path":"rooms/Room_water/Room_water.yy",},
+    {"name":"inst_59F221E7","path":"rooms/Room_water/Room_water.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -200,6 +201,9 @@
         {"$GMRInstance":"v4","%Name":"inst_5E14F241","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E14F241","objectId":{"name":"obj_kiwi","path":"objects/obj_kiwi/obj_kiwi.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.dg_kiwi",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":372.0,"y":503.0,},
+        {"$GMRInstance":"v4","%Name":"inst_59F221E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59F221E7","objectId":{"name":"obj_ground_tile","path":"objects/obj_ground_tile/obj_ground_tile.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ground_tile","path":"objects/obj_ground_tile/obj_ground_tile.yy",},"propertyId":{"name":"terrain","path":"objects/obj_ground_tile/obj_ground_tile.yy",},"resource":{"name":"spr_player_walk_water","path":"sprites/spr_player_walk_water/spr_player_walk_water.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player_walk_water",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.25,"scaleY":2.25,"x":755.0,"y":441.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_path","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_path","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":38,"SerialiseWidth":50,"TileCompressedData":[
           1,161,-48,213,2,162,158,-48,-2147483648,2,156,158,-48,-2147483648,2,156,158,-48,-2147483648,2,156,158,
