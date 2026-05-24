@@ -61,27 +61,30 @@ if (_hor != 0 or _ver != 0)
 else 
 { 
 
-    if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_front;
+    if (sprite_index == spr_player_walk_down) 
+{
+    // idle animations 
+    var _r = round(random_range(0, 1));
+    _r = 1;    
+    switch (_r) 
+{ 
+        case 0:
+            sprite_index = spr_player_idle_front;
+        break; 
+        
+        case 1:
+            sprite_index = spr_player_idle_front_alt;
+        break;
+        
+        default:
+            sprite_index = Sprite20;
+            break;
+    }        
+    }
     else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
     else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
     else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
     
-    // idle animations 
-    //var _r = round(random_range(0, 1));
-    //_r = 1;    
-    //switch (_r) 
-//{ 
-        //case 0:
-            //sprite_index = spr_player_idle_front;
-        //break; 
-        //
-        //case 1:
-            //sprite_index = spr_player_idle_front_alt;
-        //break;
-        //
-        //default:
-            //sprite_index = Sprite20;
-            //break;
-    //}
+
 } 
 

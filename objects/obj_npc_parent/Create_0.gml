@@ -9,6 +9,7 @@ draw = true;
 quest_done = false;
 quest_started = false; 
 
+
 // movement
 tilemap = layer_tilemap_get_id("Tiles_col");
 can_move = 0;
