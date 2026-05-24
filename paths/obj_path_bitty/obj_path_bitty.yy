@@ -1,18 +1,18 @@
 {
   "$GMPath":"",
-  "%Name":"Path1",
+  "%Name":"obj_path_bitty",
   "closed":true,
   "kind":0,
-  "name":"Path1",
+  "name":"obj_path_bitty",
   "parent":{
     "name":"chars",
     "path":"folders/objects/chars.yy",
   },
   "points":[
     {"speed":100.0,"x":112.783325,"y":45.79223,},
-    {"speed":100.0,"x":160.27948,"y":45.21456,},
-    {"speed":100.0,"x":150.7054,"y":69.363655,},
-    {"speed":100.0,"x":116.80629,"y":65.67563,},
+    {"speed":100.0,"x":159.27948,"y":46.21456,},
+    {"speed":100.0,"x":159.7054,"y":70.363655,},
+    {"speed":100.0,"x":112.80629,"y":69.67563,},
   ],
   "precision":4,
   "resourceType":"GMPath",

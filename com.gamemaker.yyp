@@ -85,7 +85,7 @@
     {"id":{"name":"obj_ter_tree_small","path":"objects/obj_ter_tree_small/obj_ter_tree_small.yy",},},
     {"id":{"name":"obj_ter_tree_smaller","path":"objects/obj_ter_tree_smaller/obj_ter_tree_smaller.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
-    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
+    {"id":{"name":"obj_path_bitty","path":"paths/obj_path_bitty/obj_path_bitty.yy",},},
     {"id":{"name":"Room_Barn","path":"rooms/Room_Barn/Room_Barn.yy",},},
     {"id":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
     {"id":{"name":"Room_hallway","path":"rooms/Room_hallway/Room_hallway.yy",},},
