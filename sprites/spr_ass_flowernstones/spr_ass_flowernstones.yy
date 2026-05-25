@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_flowers",
+  "%Name":"spr_ass_flowernstones",
   "bboxMode":0,
   "bbox_bottom":79,
-  "bbox_left":1,
-  "bbox_right":62,
-  "bbox_top":16,
+  "bbox_left":4,
+  "bbox_right":191,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c76579e2-0924-4cfb-b26b-7af116fc0a1e","name":"c76579e2-0924-4cfb-b26b-7af116fc0a1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bccbc1de-dfd6-4638-b0ba-9d885fdd66c4","name":"bccbc1de-dfd6-4638-b0ba-9d885fdd66c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":80,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"231cca60-8487-42fb-9f3f-b8ffa66bdfd8","blendMode":0,"displayName":"default","isLocked":false,"name":"231cca60-8487-42fb-9f3f-b8ffa66bdfd8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"20d3c2d3-3914-405e-a5e8-756e1121f06d","blendMode":0,"displayName":"default","isLocked":false,"name":"20d3c2d3-3914-405e-a5e8-756e1121f06d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_flowers",
+  "name":"spr_ass_flowernstones",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_flowers",
+    "%Name":"spr_ass_flowernstones",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,9 +57,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_flowers",
+    "name":"spr_ass_flowernstones",
     "playback":1,
-    "playbackSpeed":2.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c76579e2-0924-4cfb-b26b-7af116fc0a1e","path":"sprites/spr_flowers/spr_flowers.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f37edc19-4172-4e1e-af56-8da9624e2679","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bccbc1de-dfd6-4638-b0ba-9d885fdd66c4","path":"sprites/spr_ass_flowernstones/spr_ass_flowernstones.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a0c03ca4-91db-46d7-8986-fa04bdec90e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":192,
 }
