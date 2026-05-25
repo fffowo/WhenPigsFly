@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ass_glitter",
-    "path":"sprites/spr_ass_glitter/spr_ass_glitter.yy",
+    "name":"spr_npc_camilla",
+    "path":"sprites/spr_npc_camilla/spr_npc_camilla.yy",
   },
   "spriteMaskId":null,
   "visible":true,
