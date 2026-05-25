@@ -37,12 +37,12 @@ npc_dialogue = [
     // first
     [{
         name: "NPC",
-        msg: "This is a test message!"
+        msg: "WHEEEEEE"
     }],
     // second
     [{
         name: "NPC",
-        msg: "This is a second test message!"
+        msg: "W H E E E E E E"
     }]
 ];
 

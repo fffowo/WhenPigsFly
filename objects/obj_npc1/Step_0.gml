@@ -1,5 +1,6 @@
-if (instance_exists(obj_dialogue)) exit;
-
+if (instance_exists(obj_dialogue)) {
+    exit;
+}
 
 if (path_exists(npc_path))
 {
@@ -22,5 +23,4 @@ else
 {
     can_talk = false;
 }
-
 

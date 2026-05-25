@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"obj_path_npc",
+  "closed":true,
+  "kind":0,
+  "name":"obj_path_npc",
+  "parent":{
+    "name":"chars",
+    "path":"folders/objects/chars.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":267.78333,"y":224.79224,},
+    {"speed":100.0,"x":323.1686,"y":223.12534,},
+    {"speed":100.0,"x":326.94736,"y":299.1696,},
+    {"speed":100.0,"x":272.80627,"y":299.67563,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

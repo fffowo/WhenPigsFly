@@ -9,12 +9,3 @@ draw = true;
 quest_done = false;
 quest_started = false; 
 
-
-// movement
-tilemap = layer_tilemap_get_id("Tiles_col");
-can_move = 0;
-move_speed = 1; 
-move_x = x;
-move_y = y;
-alarm[0] = 120;
-
