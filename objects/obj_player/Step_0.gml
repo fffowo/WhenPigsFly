@@ -1,5 +1,4 @@
 
-
 if (instance_exists(obj_dialogue)) exit;
 if (instance_exists(obj_inventory)) exit;
 

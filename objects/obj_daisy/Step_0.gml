@@ -15,6 +15,7 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
             create_dialogue(dialog[2]);
             obj_player.happiness += 10;
             global.milo.quest_done = true;
+            
     } 
         else { 
             create_dialogue(dialog[has_interacted]);
