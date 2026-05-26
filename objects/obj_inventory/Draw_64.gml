@@ -1,36 +1,13 @@
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_text(20, 25, $"happiness: {happiness}, {msg}");
-draw_text(20, 45, $"quest: {quest_milo}");
+draw_text(20, 25, "Pixel art: characters & assets by fowo, tilemaps and assets by CupNooble");
 
-var _x = 20;
-var _y = 65;
+draw_text(20, 45, "Music & Sounds: Apple Cider by Zane Little Music, Toy Pig by tosha73, footsteps by Jute");
 
-var _x_char = 120;
-var _y_char = 65;
+draw_text(20, 65, "Special Thanks to Sam, Leo and derry for their support through this journey <3");
 
+draw_text(20, 65, "And to you, for playing my little game. :)");
 
 
-// row is 1 so the modulo does what i want and breaks after E
-for (row = 1; row < (array_length(caps) + 1); row++)
-{
-
-    draw_text(_x, _y, caps[row - 1]);
-    draw_text(_x_char, _y_char, chars[row - 1]);
-
-    _x += 20;    
-    _x_char += 20;
-
-        if (row % 4 == 0)
-    {
-        _x = 20;
-        _y += 20;
-        
-        _x_char = 120;
-        _y_char += 20;
-        draw_text(_x, _y, "\n");
-    }    
-} 
-
-draw_text_ext_transformed(25, 250, "ABCDEFG", 30, 250, 1.5, 1.5, 0);
+draw_text_ext_transformed(25, 250, "Credits", 30, 250, 1.5, 1.5, 0);
