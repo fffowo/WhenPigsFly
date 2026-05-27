@@ -2,8 +2,8 @@ function follow(){
 
     move_speed = 1;
     
-    player_x = obj_player.x;
-    player_y = obj_player.y;
+    player_x = obj_player.x - sprite_width;
+    player_y = obj_player.y - sprite_height;
     
     var _hor = clamp(player_x - x, -1, 1);
     var _ver = clamp(player_y - y, -1, 1);

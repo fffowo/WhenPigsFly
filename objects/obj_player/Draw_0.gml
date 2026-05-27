@@ -1,6 +1,4 @@
 
-
-
 if (place_meeting(x, y, obj_ground_tile))
 {
     draw_shadow(0, 1);

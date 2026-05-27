@@ -5,7 +5,3 @@ y_offset = 1;
 x_offset = 0;
 draw = true;
 
-// quests
-quest_done = false;
-quest_started = false; 
-

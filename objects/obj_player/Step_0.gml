@@ -11,6 +11,8 @@ if (keyboard_check_pressed(vk_space))
     audio_play_sound(soundfile, 1, false);
 }
 
+
+// movement 
 var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
