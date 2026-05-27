@@ -33,6 +33,19 @@ char_colors = {
 
 }
 
+dg_npc = [
+    // 0
+    [{
+        name: "Follower",
+        msg: "You want me to follow you? Okay!"
+    }],
+    // 1
+    [{
+        name: "Follower",
+        msg: "I'll stop following you!"
+    }]
+];
+
 npc_dialogue = [
     // first
     [{
