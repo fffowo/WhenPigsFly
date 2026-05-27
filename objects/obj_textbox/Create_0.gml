@@ -18,10 +18,7 @@ textb_img_speed = 0;
 
 // the text
 page = 0;
-text[0] = "Hello world!";
-//text[0] = "Lorem ipsum dolor sit ec elit faucibus aliquam. ";
-//text[1] = "Neque porro quisquam estsectetur, adipisci velit...";
-//text[2] = "Hello world!";
+text[0] = "";
 
 page_number = 0;
 

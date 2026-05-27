@@ -1,6 +1,6 @@
 // functions and variables are GLOBAL and can be read by any object!!
 
-function create_dialogue(_messages){
+function create_dialogue1(_messages){
 
     if (instance_exists(obj_dialogue)) return;
         
@@ -32,6 +32,8 @@ char_colors = {
     "Leo": #353738,
 
 }
+
+dg_npc_new = "Hello world!";
 
 dg_npc = [
     // 0
