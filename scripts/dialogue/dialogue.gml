@@ -1,6 +1,6 @@
 // functions and variables are GLOBAL and can be read by any object!!
 
-function create_dialogue1(_messages){
+function create_dialogue(_messages){
 
     if (instance_exists(obj_dialogue)) return;
         
@@ -26,6 +26,7 @@ char_colors = {
     "Kiwi": #353738,
     "Leonard": #353738,
     "Noodle": #353738,
+    "Pepper": #353738,
     
     "Camilla": #713970,
     "Henrietta": #353738,
@@ -48,18 +49,6 @@ dg_npc = [
     }]
 ];
 
-npc_dialogue = [
-    // first
-    [{
-        name: "NPC",
-        msg: "WHEEEEEE"
-    }],
-    // second
-    [{
-        name: "NPC",
-        msg: "W H E E E E E E"
-    }]
-];
 
 npc_dialogue1 = [
     // first
@@ -145,16 +134,74 @@ dg_leo = [
 
 // ------------ SIBLINGS ----------------------------------
 
+// ------------------ ziggy -----------------------------
+dg_ziggy = [
+    // first
+    [{
+        name: "Ziggy",
+        msg: "WHEEEEEE"
+    }],
+    // second
+    [{
+        name: "Ziggy",
+        msg: "W H E E E E E E"
+    }]
+];
+
+// ------------------ dominik -----------------------------
+
+dg_dominik = [
+    [{
+        name: "Dominik",
+        msg: "We're not supposed to leave."   
+    }],
+    [{ 
+        name: "Dominik",
+        msg: "Mama said so."  
+    }]
+]
+
+
+// ------------------ pepper -----------------------------
+
+dg_pepper = [
+    [{
+        name: "Pepper",
+        msg: "*sigh*"   
+    }],
+    [{ 
+        name: "You",
+        msg: "I don't think she's noticing me..."  
+    }]
+]
+
+// ------------------ sophie -----------------------------
+
+dg_sophie = [
+    [{
+        name: "Sophie",
+        msg: "Careful please!"   
+    },
+    {
+        name: "Sophie",
+        msg: "I'm growing a sunflower here." 
+    }],
+    [{ 
+        name: "Sophie",
+        msg: "... it's not going very well, to be honest."  
+    }]
+]
+
 // ------------------ leonard -----------------------------
 
 dg_leonard = [
     [{
         name: "Leonard",
-        msg: "Hey you."   
+        msg: "Don't bother me."   
     }],
     [{ 
         name: "Leonard",
-        msg: "Don't bother me."  
+        msg: "I'm very smart."  
     }]
 ]
 

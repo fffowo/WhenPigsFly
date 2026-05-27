@@ -1,0 +1,2 @@
+
+sprite_index = spr_daisy_crying_1;

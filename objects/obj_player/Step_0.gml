@@ -9,6 +9,7 @@ if (keyboard_check_pressed(vk_space))
     var _r = round(random_range(0, 1));
     soundfile = snorfs[_r];
     audio_play_sound(soundfile, 1, false);
+    happiness++;
 }
 
 
@@ -61,7 +62,6 @@ else
 {
     // idle animations 
     var _r = round(random_range(0, 1));
-    _r = 1;    
     switch (_r) 
 { 
         case 0:

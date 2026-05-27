@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_npc2",
-    "path":"sprites/spr_npc2/spr_npc2.yy",
+    "name":"spr_npc_milo",
+    "path":"sprites/spr_npc_milo/spr_npc_milo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,1 @@
+if (sprite_index == spr_daisy_crying_1) sprite_index = spr_daisy_crying;
