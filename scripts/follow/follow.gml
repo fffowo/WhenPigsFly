@@ -13,7 +13,7 @@ function follow(){
     if (distance_to_object(obj_player) > 16)
     { 
         
-        if (place_meeting(x + xspeed, y, global.tilemap))  xspeed = 0;
+        if (place_meeting(x + xspeed, y, global.tilemap)) xspeed = 0;
         if (place_meeting(x, y + yspeed, global.tilemap)) yspeed = 0;
 
        if (player_x != x) x += xspeed;
