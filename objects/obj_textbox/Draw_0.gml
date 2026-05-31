@@ -68,6 +68,7 @@ if (keyboard_check_pressed(vk_space))
 textb_spr_w = sprite_get_width(textb_img);
 textb_spr_h = sprite_get_height(textb_img);
 
+
 // textbox
 draw_sprite_ext(spr_ass_txtbx, 0, textbox_x, textbox_y, 1, 1, 0, c_white, 1);
 

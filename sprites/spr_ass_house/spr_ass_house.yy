@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_ass_house",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":254,
   "bbox_left":10,
   "bbox_right":415,
   "bbox_top":16,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"06a01952-d5a4-4cf0-9ff1-5615ba4d854d","name":"06a01952-d5a4-4cf0-9ff1-5615ba4d854d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df047bb0-8b60-4cb8-86fa-556c5e975d73","name":"df047bb0-8b60-4cb8-86fa-556c5e975d73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":272,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6446d83c-8bb8-4589-b190-e60312df532e","blendMode":0,"displayName":"default","isLocked":false,"name":"6446d83c-8bb8-4589-b190-e60312df532e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"83abec3f-a1e4-436d-8bc2-b9cdd75a8474","blendMode":0,"displayName":"default","isLocked":false,"name":"83abec3f-a1e4-436d-8bc2-b9cdd75a8474","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ass_house",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06a01952-d5a4-4cf0-9ff1-5615ba4d854d","path":"sprites/spr_ass_house/spr_ass_house.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2cedc07d-b1b9-4a96-9648-7a958228d98c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df047bb0-8b60-4cb8-86fa-556c5e975d73","path":"sprites/spr_ass_house/spr_ass_house.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"62e0e881-0c66-4c4c-a746-952fa5dbe1fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

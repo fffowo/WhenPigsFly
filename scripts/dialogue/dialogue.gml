@@ -34,6 +34,9 @@ char_colors = {
 
 }
 
+txt_sign = "Hello world!";
+
+
 dg_npc_new = "Hello world!";
 
 dg_npc = [

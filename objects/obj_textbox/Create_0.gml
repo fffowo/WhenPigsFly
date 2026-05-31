@@ -13,7 +13,7 @@ x_offset = sprite_get_width(spr_player_port);
 
 
 textb_spr = spr_ass_txtbx;
-textb_img = 0;
+textb_img = spr_ass_txtbx;
 textb_img_speed = 0;
 
 // the text
