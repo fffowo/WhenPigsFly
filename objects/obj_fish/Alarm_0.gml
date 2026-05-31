@@ -1,0 +1,1 @@
+alarm[1] = random_range(300, 1000);
