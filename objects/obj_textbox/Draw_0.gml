@@ -1,9 +1,7 @@
 
 accept_key = keyboard_check_pressed(vk_space);
-//textbox_x = camera_get_view_x(view_camera[0]) + 20;
-//textbox_y = camera_get_view_y(view_camera[0]) + 100;
-textbox_x = 7;
-textbox_y = 93;
+textbox_x = camera_get_view_x(view_camera[0]) + 7;
+textbox_y = camera_get_view_y(view_camera[0]) + 110;
 
 
 //setup
@@ -77,5 +75,6 @@ draw_sprite(spr_player_port, 0, textbox_x + 8, textbox_y + 7);
 
 // draw text
 var _drawtext = string_copy(text[page], 1, draw_char);
+draw_set_font(Font_sprout);
 draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + y_offset, _drawtext, line_sep, line_width);
 

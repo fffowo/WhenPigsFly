@@ -8,8 +8,8 @@ textbox_height = 60;
 border = 20;
 line_sep = 12;
 line_width = textbox_width - border*2;
-y_offset = 20;
-x_offset = sprite_get_width(spr_player_port); 
+y_offset = 30;
+x_offset = sprite_get_width(spr_player_port) + 60; 
 
 
 textb_spr = spr_ass_txtbx;

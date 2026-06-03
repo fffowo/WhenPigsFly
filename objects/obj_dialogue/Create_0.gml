@@ -10,4 +10,4 @@ input_key = vk_space;
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 
-alarm[0] = 10;
+alarm[0] = 5;

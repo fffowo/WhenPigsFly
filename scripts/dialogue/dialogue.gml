@@ -15,6 +15,7 @@ function create_dialogue(_messages){
 
 char_colors = {
     "You": c_aqua,
+    "\ ": c_black,
     "NPC": c_black,
     "Sibling": c_gray,
     "Mama": c_gray,
@@ -34,7 +35,10 @@ char_colors = {
 
 }
 
-txt_sign = "Hello world!";
+txt_sign = [{
+        name: "",
+        msg: "Keep out!"
+    }];
 
 
 dg_npc_new = "Hello world!";
@@ -148,6 +152,10 @@ dg_ziggy = [
     [{
         name: "Ziggy",
         msg: "W H E E E E E E"
+    },
+    {
+        name: "You",
+        msg: "(He seems to have fun...)"
     }]
 ];
 
@@ -224,22 +232,43 @@ dg_noodle = [
 // ----------------------- Milo ----------------------
 dg_milo = [
     // first talk 0
-    [{
+    [
+    {
+        name: "Milo",
+        msg: "Ugh..."
+    },
+    {
+        name: "You",
+        msg: "Hey Milo, what's up?"
+    },    
+    {
         name: "Milo",
         msg: "I had a fight with Daisy."
     },
-        {
-        name: "Milo",
-        msg: "I saw her run off toward the top right..."
+    {
+        name: "You",
+        msg: "Oh no!"
     },
         {
         name: "Milo",
-        msg: "Can you go check on her for me?"
+        msg: "Yeah, and now she's run off and I can't find her..."
+    },
+    {
+        name: "Milo",
+        msg: "If you see her, can you tell her I'm sorry?"
+    },
+    {
+        name: "You",
+        msg: "Yeah, sure!"
+    },
+        {
+        name: "Milo",
+        msg: "Thanks."
     }],
     // talk again 1
     [{
         name: "Milo",
-        msg: "Can you go check on her for me?"
+        msg: "Can you go check on Daisy for me?"
     }],
     // after quest 2
     [{

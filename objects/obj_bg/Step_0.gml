@@ -1,0 +1,1 @@
+move_wrap(x,y,0);
