@@ -1,1 +1,3 @@
-move_wrap(x,y,0);
+//
+//draw_sprite(spr_ass_sky1, 0, x++, y);
+x++;
