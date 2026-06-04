@@ -32,7 +32,7 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
     if (keyboard_check_pressed(input_key))
     { 
         path_end();
-        if (global.bitty.quest_started)
+        if (global.quests[char_index].quest_started)
         {
             path_end();
             create_dialogue([
@@ -48,7 +48,7 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
         {
             create_dialogue(dialog[has_interacted]);
             has_interacted = 1;
-            global.bitty.quest_started = true;
+            global.quests[char_index].quest_started = true;
         }
     }
 }

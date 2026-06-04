@@ -2,19 +2,20 @@
 if (instance_exists(obj_dialogue)) exit;
 if (instance_exists(obj_inventory)) exit;
 
-if (keyboard_check_pressed(vk_escape))
+if (!instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
 {
-    room_goto(Room_inventory);
+    //room_goto(Room_inventory);
+    instance_create_depth(x, y, -5000, obj_inventory);
 }
-
 
 if (keyboard_check_pressed(vk_space))
 {
     // TODO: snorf!
-    var _r = round(random_range(0, 1));
+    var _r = round(random_range(0, 3));
     soundfile = snorfs[_r];
     audio_play_sound(soundfile, 1, false);
-    happiness++;
+    global.happiness++;
+
 }
 
 
@@ -31,11 +32,11 @@ _ver = lengthdir_y(_len, _dir);
 xspeed = _hor * move_speed;
 yspeed = _ver * move_speed; 
 
-if (place_meeting(x + xspeed, y, [tilemap, obj_coll, obj_npc_parent]))
+if (place_meeting(x + xspeed, y, coll))
 {
     xspeed = 0;
 }
-if (place_meeting(x, y + yspeed, [tilemap, obj_coll, obj_npc_parent]))
+if (place_meeting(x, y + yspeed, coll))
 {
     yspeed = 0;
 }
@@ -85,7 +86,5 @@ else
     else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
     else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
     else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
-    
-
 } 
 

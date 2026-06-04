@@ -1,8 +1,5 @@
-// TODO global
-happiness = obj_player.happiness;
+// TOD  global
+happiness = global.happiness;
 //quest_milo  = "None yet!";
 msg = $"I'm {happiness} happy.";
 
-quests = global.quests;
-
-inventory = global.inventory;

@@ -5,3 +5,4 @@ y_offset = 1;
 x_offset = 0;
 draw = true;
 
+char_index = get_char_index(npc_name);

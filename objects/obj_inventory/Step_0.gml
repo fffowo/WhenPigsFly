@@ -1,14 +1,20 @@
 
 if (instance_exists(obj_dialogue)) exit;
-    
+
+if (instance_exists(obj_inventory) && keyboard_check_pressed(vk_enter))
+{
+    instance_destroy();
+}
+
+
 
 // TODO: remove player obj??
 
 // TODO: exit    
-if (keyboard_check_pressed(vk_escape))
-{
-    room_goto(Room_Outside);
-}
+//if (keyboard_check_pressed(vk_escape))
+//{
+    ////room_goto(Room_Outside);
+//}
 
 //
 //

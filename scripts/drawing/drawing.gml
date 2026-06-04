@@ -1,7 +1,7 @@
 // vertical offset
 function draw_shadow(_x_offset = 0, _y_offset=0, draw = true){
     if (draw == false) exit;
-    draw_sprite_ext(spr_ass_shadow, 0, x + _x_offset, y + _y_offset, 1, 1, 0, #8c7369, 0.2);
+    draw_sprite_ext(spr_ass_shadow, 0, x + _x_offset, y + _y_offset, 1, 1, 0, c_white, 1);
 }
 
 
@@ -12,4 +12,9 @@ function draw_icon(_x_offset = 0, _y_offset=0, _icon = spr_ass_bubble)
      draw_sprite(_icon, 0, x + _x_offset, y + _y_offset); 
        
     }
+}
+
+function draw_happy(_x_offset = 0, _y_offset = 0)
+{
+    instance_create_depth(x, y, -1000, obj_lvl);
 }
