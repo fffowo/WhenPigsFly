@@ -8,3 +8,4 @@ steps = [snd_stepdirt1, snd_stepdirt2, snd_stepdirt3];
 coll = global.coll;
 
 counter_footsteps = 0;
+counter_snorfs = 0;

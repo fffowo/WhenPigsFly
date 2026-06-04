@@ -9,7 +9,6 @@ if (path_exists(npc_path))
     if (path_get_point_y(npc_path, 1) < self.direction)
     {
         _down = true;
-        
     }
     else {
         _down = false;

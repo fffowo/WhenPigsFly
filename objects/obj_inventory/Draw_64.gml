@@ -4,18 +4,26 @@ draw_set_valign(fa_top);
 //var _name = quests[0].name;
 //draw_text(20, 20, $"{_name}");
 
-draw_text(250, 25, $"happiness: {happiness}, {msg}");
+draw_text(250, 25, $"{msg} ({happiness})");
 
 var _margin = 25;
 for (var _i = 0; _i < array_length(global.quests); _i++)
 {
-        draw_text(_margin, _margin*_i + 1, $"{global.quests[_i].name}");
-        draw_text(_margin + 100, _margin*_i  + 1, $"{global.quests[_i].quest_started}");
-        draw_text(_margin + 120, _margin*_i  + 1, $"{global.quests[_i].quest_done}");
+    draw_text(_margin, _margin*_i, $"{global.quests[_i].name}");
+    //draw_text(_margin + 100, _margin*_i  + 1, $"{global.quests[_i].quest_started}");
+    //draw_text(_margin + 120, _margin*_i  + 1, $"{global.quests[_i].quest_done}");
     
-        if (global.quests[_i].quest_done == true) {
-            draw_text(_margin + 140, _margin*_i  + 1, "done!");
-        }
+    if (global.quests[_i].quest_done == true) 
+    {
+        draw_text(_margin + 100, _margin*_i  + 1, $"{global.quests[_i].quest_done_msg}");
+    } 
+    else if (global.quests[_i].quest_started == true) 
+    {
+        draw_text(_margin + 100, _margin*_i  + 1, $"{global.quests[_i].quest_started_msg}");
+    }
+    else {
+        // TODO
+    }
 }
 
 var _x = 25;

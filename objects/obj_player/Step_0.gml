@@ -4,18 +4,22 @@ if (instance_exists(obj_inventory)) exit;
 
 if (!instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
 {
-    //room_goto(Room_inventory);
     instance_create_depth(x, y, -5000, obj_inventory);
 }
 
 if (keyboard_check_pressed(vk_space))
 {
-    // TODO: snorf!
     var _r = round(random_range(0, 3));
     soundfile = snorfs[_r];
     audio_play_sound(soundfile, 1, false);
-    global.happiness++;
-
+    if (counter_snorfs == 0)
+    {
+        global.happiness++;
+        counter_snorfs = 5;
+    } else 
+    {
+        counter_snorfs--;
+    }
 }
 
 
