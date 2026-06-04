@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"obj_path_noodle",
+  "closed":true,
+  "kind":0,
+  "name":"obj_path_noodle",
+  "parent":{
+    "name":"chars",
+    "path":"folders/objects/chars.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":38.783325,"y":331.79224,},
+    {"speed":100.0,"x":38.80629,"y":374.67563,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

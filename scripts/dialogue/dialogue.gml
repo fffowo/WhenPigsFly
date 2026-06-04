@@ -387,7 +387,7 @@ dg_bitty = [
     // first
     [{
         name: "Bitty",
-        msg: "Everyone says I'm tiny..",
+        msg: "Everyone says I'm tiny...",
         portrait: spr_npc_blank,  
     },
     {
@@ -395,10 +395,14 @@ dg_bitty = [
         msg: "But I'm tall, right?",
         portrait: spr_npc_blank,  
     }],
-     //second
-    [{
+        [{
         name: "Bitty",
-        msg: "... right?",
+        msg: "I want to be...",
+        portrait: spr_npc_blank,  
+    },
+    {
+        name: "Bitty",
+        msg: "... THE TALLEST!",
         portrait: spr_npc_blank,  
     }]
 ];

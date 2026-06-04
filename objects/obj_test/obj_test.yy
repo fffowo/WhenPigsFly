@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ass_box",
-    "path":"sprites/spr_ass_box/spr_ass_box.yy",
+    "name":"spr_ass_circle",
+    "path":"sprites/spr_ass_circle/spr_ass_circle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

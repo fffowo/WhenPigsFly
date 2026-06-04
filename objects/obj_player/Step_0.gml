@@ -2,6 +2,11 @@
 if (instance_exists(obj_dialogue)) exit;
 if (instance_exists(obj_inventory)) exit;
 
+if (keyboard_check_pressed(vk_escape))
+{
+    room_goto(Room_inventory);
+}
+
 
 if (keyboard_check_pressed(vk_space))
 {

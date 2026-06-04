@@ -1,8 +1,8 @@
 
 var _dx = 16;
 var _dy = 16;
-var _barw = sprite_get_width(spr_ass_box_1);
-var _barh = sprite_get_height(spr_ass_box_1);
+var _barw = sprite_get_width(spr_ass_rectangle);
+var _barh = sprite_get_height(spr_ass_rectangle);
 
 // properties
 draw_set_font(Font_sprout);

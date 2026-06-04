@@ -38,7 +38,8 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
             create_dialogue([
                 {
                     name: "Bitty",
-                    msg: "I'm gonna follow you!"
+                    msg: "I'm gonna follow you!",
+                    portrait: spr_npc_blank
                 } 
             ])
             follow_player = true;

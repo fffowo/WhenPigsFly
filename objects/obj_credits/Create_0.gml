@@ -1,6 +1,3 @@
-happiness = obj_player.happiness;
-quest_milo  = "None yet!";
-msg = $"I'm {happiness} happy.";
 
 
 chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
