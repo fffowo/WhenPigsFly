@@ -1,10 +1,13 @@
 
 if (instance_exists(obj_dialogue)) exit;
-if (instance_exists(obj_inventory)) exit;
 
 if (!instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
 {
     instance_create_depth(x, y, -5000, obj_inventory);
+} 
+else if (instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
+{
+       instance_destroy(obj_inventory);
 }
 
 if (keyboard_check_pressed(vk_space))
@@ -36,11 +39,11 @@ _ver = lengthdir_y(_len, _dir);
 xspeed = _hor * move_speed;
 yspeed = _ver * move_speed; 
 
-if (place_meeting(x + xspeed, y, coll))
+if (place_meeting(x + xspeed, y, [layer_tilemap_get_id("Tiles_col"), obj_coll, obj_npc_parent]))
 {
     xspeed = 0;
 }
-if (place_meeting(x, y + yspeed, coll))
+if (place_meeting(x, y + yspeed, [layer_tilemap_get_id("Tiles_col"), obj_coll, obj_npc_parent]))
 {
     yspeed = 0;
 }

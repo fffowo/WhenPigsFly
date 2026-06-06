@@ -11,3 +11,4 @@ _cam_x = clamp(_cam_x, 0, room_width - _cam_width);
 _cam_y = clamp(_cam_y, 0, room_height - _cam_height);
 
 camera_set_view_pos(_cam, _cam_x, _cam_y);
+

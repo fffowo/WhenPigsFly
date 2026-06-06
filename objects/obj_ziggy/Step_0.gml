@@ -4,7 +4,7 @@ if (instance_exists(obj_dialogue)) {
 
 if (path_exists(npc_path))
 {
-    sprite_index = walk_anim;
+    walk_sprite_direction([spr_npc1_roll, spr_npc1_roll_left, spr_npc1_roll_left, spr_npc1_roll]);
 }
 
 

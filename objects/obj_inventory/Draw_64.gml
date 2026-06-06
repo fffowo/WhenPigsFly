@@ -4,6 +4,8 @@ draw_set_valign(fa_top);
 //var _name = quests[0].name;
 //draw_text(20, 20, $"{_name}");
 
+draw_text(600, 25, $"ID: {layer_instance_get_instance(self)}");
+
 draw_text(250, 25, $"{msg} ({happiness})");
 
 var _margin = 25;

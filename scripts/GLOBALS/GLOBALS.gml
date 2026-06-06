@@ -1,6 +1,4 @@
 
-coll = [layer_tilemap_get_id("Tiles_col"), obj_coll, obj_npc_parent];
-
 function get_char_index(_name = "")
 {
     var _index = 0;
@@ -12,4 +10,27 @@ function get_char_index(_name = "")
             }
     }
     return _index;
+}
+
+// @param [_sides]
+// @description right, up, left, down 
+function walk_sprite_direction(_sides)
+{
+
+    if (direction == 0)
+    {
+        sprite_index = _sides[0]; // right
+    }
+    if (direction == 90)
+    {
+        sprite_index = _sides[1]; // up
+    }
+    if (direction == 180)
+    {
+        sprite_index = _sides[2]; // left
+    }
+    if (direction == 270)
+    {
+        sprite_index = _sides[3]; // down
+    } 
 }
