@@ -23,7 +23,6 @@
     {"name":"inst_6BB0E141","path":"rooms/Room_house/Room_house.yy",},
     {"name":"inst_4A57935E","path":"rooms/Room_house/Room_house.yy",},
     {"name":"inst_86CD134","path":"rooms/Room_house/Room_house.yy",},
-    {"name":"inst_420479C6","path":"rooms/Room_house/Room_house.yy",},
     {"name":"inst_32215C30","path":"rooms/Room_house/Room_house.yy",},
   ],
   "isDnd":false,
@@ -44,7 +43,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_y","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"540",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_x","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"570",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":156.0,},
-        {"$GMRInstance":"v4","%Name":"inst_420479C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_420479C6","objectId":{"name":"obj_musicmngr","path":"objects/obj_musicmngr/obj_musicmngr.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-11.0,"y":-13.0,},
         {"$GMRInstance":"v4","%Name":"inst_32215C30","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32215C30","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_room","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"Room_house_inside","path":"rooms/Room_house_inside/Room_house_inside.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room_house_inside",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_y","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"95",},

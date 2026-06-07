@@ -6,8 +6,13 @@ if (instance_exists(obj_credits))
     }
 }
 
-//if (keyboard_check_down(vk_space))
-//{
-    //speed++;
-    //
-//}
+if (keyboard_check_pressed(vk_space))
+{
+    path_speed++;
+    alarm[0] --;
+    
+}
+if (keyboard_check_released(vk_space)){
+    path_speed--;
+    alarm[0]++;
+}

@@ -1,1 +1,0 @@
-draw_text(20, 25, "Mom! I'm booored!");

@@ -20,7 +20,7 @@ if (input_key){
                     {
                         switch (pos) {
                         case 0:
-                            room_goto_next();
+                            room_goto(Room_Outside);
                             break;
                         case 1:
                             menu_level = 1;
