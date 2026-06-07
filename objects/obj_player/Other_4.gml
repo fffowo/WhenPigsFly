@@ -1,3 +1,4 @@
+
 //with (obj_data_carry) {
     //other.happiness = 0;
     //

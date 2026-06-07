@@ -26,6 +26,9 @@ if (input_key){
                             menu_level = 1;
                             break;
                         case 2:
+                            room_goto(Room_credits);
+                            break;
+                        case 3:
                             game_end();
                             break;
                         default:

@@ -168,13 +168,13 @@ dg_ziggy = [
     // first
     [{
         name: "Ziggy",
-        portrait: spr_npc_happy,
+        portrait: spr_npc1_port,
         msg: "WHEEEEEE"
     }],
     // second
     [{
         name: "Ziggy",
-        portrait: spr_npc_happy,
+        portrait: spr_npc1_port,
         msg: "W H E E E E E E"
     },
     {
@@ -256,12 +256,12 @@ dg_noodle = [
     [{
         name: "Noodle",
         msg: "I'm not letting you trough.",
-                portrait: spr_npc_blank,    
+                portrait: spr_npc_noodle_port,    
     }],
     [{ 
         name: "Noodle",
         msg: "Nuh-uh.",
-                portrait: spr_npc_blank,   
+                portrait: spr_npc_noodle_port,   
     }]
 ]
 
@@ -416,18 +416,18 @@ dg_olive = [
         [{
         name: "Olive",
         msg: "Hi! I'm Olive.",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_olive_port,  
     }],
     // 1
     [{
         name: "Olive",
         msg: "The fence behind the tree is broken...",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_olive_port,  
     },
     {
         name: "Olive",
         msg: "I'm worried...",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_olive_port,  
     }],
 ]
 

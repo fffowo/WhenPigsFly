@@ -25,7 +25,7 @@
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":7,
-    "enabled":false,
+    "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
@@ -42,7 +42,7 @@
     ],
     "top":5,
   },
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"stuff",
     "path":"folders/sprites/assets/stuff.yy",
@@ -94,8 +94,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":13,
+    "yorigin":14,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

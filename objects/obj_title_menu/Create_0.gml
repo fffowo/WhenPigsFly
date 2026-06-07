@@ -7,7 +7,8 @@ op_space = 16;
 // pause menu
 options[0, 0] = "Start Game";
 options[0, 1] = "Options";
-options[0, 2] = "End Game";
+options[0, 2] = "Credits";
+options[0, 3] = "End Game";
 
 
 // settings menu

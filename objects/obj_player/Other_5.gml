@@ -1,4 +1,7 @@
+
+
 //instance_create_depth(0, 0, 0, obj_data_carry, {
     //happiness: happiness,
     //tilemap: tilemap
 //})
+

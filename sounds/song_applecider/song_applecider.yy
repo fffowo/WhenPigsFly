@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"song_applecider",
   "parent":{
-    "name":"com.gamemaker",
-    "path":"com.gamemaker.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

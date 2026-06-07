@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_credits",
+  "closed":false,
+  "kind":0,
+  "name":"Path_credits",
+  "parent":{
+    "name":"_",
+    "path":"folders/objects/_.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":13.0,"y":127.0,},
+    {"speed":100.0,"x":13.0,"y":-222.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
