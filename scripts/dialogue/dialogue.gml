@@ -15,7 +15,7 @@ function create_dialogue(_messages){
 
 char_colors = {
     "You": c_aqua,
-    "\ ": c_black,
+    "Sign": c_black,
     "NPC": c_black,
     "Sibling": c_gray,
     "Mama": c_gray,
@@ -31,6 +31,7 @@ char_colors = {
     "Dominik": #5f699c,
     "Sophie": #754c60,
     "Ziggy": #865161,
+    "Bonnie": #865161,
     
     "Camilla": #713970,
     "Henrietta": #353738,
@@ -39,15 +40,15 @@ char_colors = {
 }
 
 txt_sign = [{
-        name: "",
+        name: "Sign",
         portrait: spr_npc_blank,
         msg: "Ruins! Keep out!"
     }];
 
 txt_sign_peak = [{
-        name: "",
+        name: "Sign",
         portrait: spr_npc_blank,
-        msg: "Mt. Peekpeak"
+        msg: "Mt. Peekpeak lorem ipsum dolor sit amet, the quick brown fox jumps over the lazy dog. Lorem ipsum lorem ipsum."
     }];
 
 dg_npc_new = "Hello world!";
@@ -179,7 +180,7 @@ dg_ziggy = [
     },
     {
         name: "You",
-        portrait: spr_player_port,
+        portrait: spr_player_port_question,
         msg: "(He seems to have fun...)"
     }]
 ];
@@ -208,10 +209,15 @@ dg_pepper = [
         msg: "*sigh*",
                 portrait: spr_npc_blank,   
     }],
-    [{ 
+    [{
+        name: "Pepper",
+        msg: "*sigh*",
+        portrait: spr_npc_blank,   
+    },
+    {
         name: "You",
         msg: "I don't think she's noticing me..."  ,
-        portrait: spr_player_port,
+        portrait: spr_player_port_question,
     }]
 ]
 
@@ -247,6 +253,11 @@ dg_leonard = [
         name: "Leonard",
         msg: "I'm very smart.",
                 portrait: spr_npc_blank, 
+    },
+    { 
+        name: "You",
+        msg: "(Alright, sheesh...)",
+        portrait: spr_player_port_question, 
     }]
 ]
 
@@ -256,12 +267,18 @@ dg_noodle = [
     [{
         name: "Noodle",
         msg: "I'm not letting you trough.",
-                portrait: spr_npc_noodle_port,    
+        portrait: spr_npc_noodle_port,    
     }],
-    [{ 
+    [
+{
+        name: "You",
+        msg: "Noodle! C'mon!",
+        portrait: spr_player_port_shocked,    
+    },    
+    {
         name: "Noodle",
         msg: "Nuh-uh.",
-                portrait: spr_npc_noodle_port,   
+        portrait: spr_npc_noodle_port,   
     }]
 ]
 
@@ -272,22 +289,22 @@ dg_milo = [
     {
         name: "Milo",
         msg: "Ugh...",
-                portrait: spr_npc_sad, 
+        portrait: spr_npc_sad, 
     },
     {
         name: "You",
         msg: "Hey Milo, what's up?",
-                portrait: spr_player_port, 
+        portrait: spr_player_port_question, 
     },    
     {
         name: "Milo",
         msg: "I had a fight with Daisy.",
-                portrait: spr_npc_sad, 
+        portrait: spr_npc_sad, 
     },
     {
         name: "You",
         msg: "Oh no!",
-        portrait: spr_player_port, 
+        portrait: spr_player_port_sad, 
     },
         {
         name: "Milo",
@@ -307,12 +324,12 @@ dg_milo = [
     {
         name: "You",
         msg: "Yeah, sure!",
-                portrait: spr_player_port, 
+        portrait: spr_player_port, 
     },
         {
         name: "Milo",
         msg: "Thanks.",
-            portrait: spr_npc_happy, 
+        portrait: spr_npc_happy, 
     }],
     // talk again 1
     [{
@@ -346,13 +363,13 @@ dg_daisy = [
     {
         name: "You",
         msg: "(She's crying...)",
-        portrait: spr_player_port, 
+        portrait: spr_player_port_sad, 
     }],
     // second 1
     [{
         name: "You",
         msg: "(She's not looking at me...)",
-        portrait: spr_player_port, 
+        portrait: spr_player_port_sad, 
         }
     ],
     // quest started 2
@@ -369,18 +386,18 @@ dg_daisy = [
         {
         name: "Daisy",
         msg: "Are you checking up on me?\nThat's so nice of you.",
-               portrait: spr_npc_happy, 
+        portrait: spr_npc_happy, 
     },
         {
         name: "Daisy",
         msg: "Thank you! I feel better already.",
-               portrait: spr_npc_happy, 
+        portrait: spr_npc_happy, 
     }],
     // quest finished 3
     [{
         name: "Daisy",
         msg: "Thank you! I feel better already.",
-               portrait: spr_npc_happy, 
+        portrait: spr_npc_happy, 
     }]
 ]
 
@@ -390,35 +407,30 @@ dg_bitty = [
     // first
     [{
         name: "Bitty",
-        msg: "Everyone says I'm tiny...",
-        portrait: spr_npc_blank,  
+        msg: "Everyone says I'm the runt of the litter and that's why I'm tiny...",
+        portrait: spr_npc_bitty_port,  
     },
     {
         name: "Bitty",
         msg: "But I'm tall, right?",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_bitty_port,  
     }],
         [{
         name: "Bitty",
         msg: "I want to be...",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_bitty_port,  
     },
     {
         name: "Bitty",
         msg: "... THE TALLEST!",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_bitty_port,  
     }]
 ];
 
 // ------------- OLIVE -------------------------
 
 dg_olive = [
-        [{
-        name: "Olive",
-        msg: "Hi! I'm Olive.",
-        portrait: spr_npc_olive_port,  
-    }],
-    // 1
+
     [{
         name: "Olive",
         msg: "The fence behind the tree is broken...",
@@ -429,6 +441,31 @@ dg_olive = [
         msg: "I'm worried...",
         portrait: spr_npc_olive_port,  
     }],
+        [{
+        name: "Olive",
+        msg: "What if a tiger comes in?!",
+        portrait: spr_npc_olive_port_shocked,  
+    },
+    {
+        name: "You",
+        msg: "Is that possible?!",
+        portrait: spr_player_port_shocked,  
+    },
+    {
+        name: "Olive",
+        msg: "I DON'T KNOW!",
+        portrait: spr_npc_olive_port_shocked,  
+    },
+    {
+        name: "You",
+        msg: "Aaaaah!",
+        portrait: spr_player_port_shocked,  
+    },
+        {
+        name: "Olive",
+        msg: "Aaaah!",
+        portrait: spr_npc_olive_port_shocked,  
+    },],
 ]
 
 // ---------- kIWI ---------------
@@ -443,6 +480,70 @@ dg_kiwi = [
     [{
         name: "Kiwi",
         msg: "î",
+        portrait: spr_npc_blank,  
+    },
+],
+]
+
+// ---------- BONNIE ---------------
+
+dg_bonnie = [
+        [{
+        name: "Bonnie",
+        msg: "Aaah!",
+        portrait: spr_npc_blank,  
+    },
+    {
+        name: "Bonnie",
+        msg: "Help!",
+        portrait: spr_npc_blank,  
+    },
+        {
+        name: "You",
+        msg: "What's wrong? Are you drowning?!",
+        portrait: spr_player_port_shocked, 
+    },
+        {
+        name: "Bonnie",
+        msg: "What?!",
+        portrait: spr_npc_blank,  
+    },
+            {
+        name: "Bonnie",
+        msg: "No, silly.",
+        portrait: spr_npc_blank,  
+    },
+                {
+        name: "Bonnie",
+        msg: "But the wind blew my towel away and now I can't get out of the water.",
+        portrait: spr_npc_blank,  
+    },
+            {
+        name: "You",
+        msg: "You... can't get out of the water because you don't have a towel?",
+        portrait: spr_player_port_question, 
+    },
+                    {
+        name: "Bonnie",
+        msg: "Yeah! Because it'll be cold!",
+        portrait: spr_npc_blank,  
+    },
+    {
+        name: "Bonnie",
+        msg: "Can you please find my towel for me?",
+        portrait: spr_npc_blank,  
+    },
+    {
+        name: "You",
+        msg: "Uh... yeah, sure.",
+        portrait: spr_player_port_question, 
+    },
+    
+    ],
+    // 1 
+    [{
+        name: "Bonnie",
+        msg: "Can you please find my towel for me?",
         portrait: spr_npc_blank,  
     },
 ],

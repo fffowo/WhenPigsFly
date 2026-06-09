@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_applecider.wav",
+  "soundFile":"song_applecider.ogg",
   "volume":1.0,
 }

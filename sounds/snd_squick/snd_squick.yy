@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":7.967347,
+  "duration":0.23049887,
   "exportDir":"",
   "name":"snd_squick",
   "parent":{

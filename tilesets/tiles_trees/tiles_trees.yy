@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"tiles_trees",
-  "out_columns":4,
+  "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"treewall",
-    "path":"sprites/treewall/treewall.yy",
+    "name":"spr_treewall",
+    "path":"sprites/spr_treewall/spr_treewall.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":18,
+  "tile_count":64,
 }

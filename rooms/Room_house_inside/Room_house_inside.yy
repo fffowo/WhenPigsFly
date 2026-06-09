@@ -11,16 +11,18 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Tiles_canopy","depth":-200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_canopy","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":25,"TileCompressedData":[
-          20,28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,-5,-2147483648,20,16,15,16,15,16,15,16,
-          15,16,15,16,15,16,15,16,15,16,15,13,14,-5,-2147483648,20,28,13,14,27,13,14,28,27,28,27,28,13,14,27,13,
-          14,28,27,25,26,-5,-2147483648,20,16,25,26,15,25,26,16,15,16,15,16,25,26,15,25,26,16,15,16,15,-5,-2147483648,
-          20,28,27,28,27,28,27,28,27,28,27,28,27,13,14,28,27,28,27,28,27,-5,-2147483648,20,16,15,16,15,16,15,16,
-          15,16,13,14,15,25,26,16,15,16,15,16,15,-5,-2147483648,20,28,27,28,13,14,27,13,14,28,25,26,27,28,27,28,
-          27,13,14,28,27,-5,-2147483648,20,16,15,16,25,26,15,25,26,13,14,13,14,16,15,16,15,25,26,16,15,-5,-2147483648,
-          20,28,27,28,27,28,27,28,27,25,26,25,26,28,27,28,27,28,27,28,27,-5,-2147483648,20,16,15,16,15,16,15,16,
-          15,16,15,16,15,16,15,16,15,16,15,16,15,-80,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_canopy_1","path":"tilesets/tiles_canopy_1/tiles_canopy_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_canopy","depth":-200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_canopy","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":25,"TileSerialiseData":[
+          28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,28,27,15,16,15,16,25,16,15,16,15,16,15,16,15,16,
+          15,16,15,16,15,16,15,16,15,13,14,27,28,27,28,27,28,13,14,27,13,14,28,27,28,27,28,13,14,27,13,14,28,27,
+          25,26,15,16,15,16,15,16,25,26,15,25,26,16,15,16,15,16,25,26,15,25,26,16,15,16,15,27,28,27,13,14,28,27,
+          28,27,28,27,28,27,28,27,28,27,13,14,28,27,28,27,28,27,13,14,15,25,26,16,15,16,15,16,15,16,15,16,13,14,
+          15,25,26,16,15,16,15,16,15,25,26,27,28,27,28,27,28,13,14,27,13,14,28,25,26,27,28,27,28,27,13,14,28,27,
+          15,16,15,16,15,16,15,16,25,26,15,25,26,13,14,13,14,16,15,16,15,25,26,16,15,27,28,27,28,27,28,27,28,27,
+          28,27,28,27,25,26,25,26,28,27,28,27,28,27,28,27,15,16,15,16,15,16,15,16,15,16,15,16,15,16,15,16,15,16,
+          15,16,15,16,15,16,13,14,28,27,28,27,13,14,16,15,16,15,16,15,16,13,14,15,16,15,16,15,16,15,16,25,26,16,
+          15,13,14,25,26,28,27,28,27,28,27,28,25,26,27,28,27,28,27,28,27,28,27,28,28,27,25,26,16,15,16,15,16,15,
+          16,15,16,15,16,15,16,15,16,15,16,15,16,15,16,16,15,16,15,
+        ],},"tilesetId":{"name":"tiles_canopy_1","path":"tilesets/tiles_canopy_1/tiles_canopy_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_67AD4FA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67AD4FA1","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"target_room","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"Room_house","path":"rooms/Room_house/Room_house.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room_house",},

@@ -10,20 +10,7 @@ else if (instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
        instance_destroy(obj_inventory);
 }
 
-if (keyboard_check_pressed(vk_space))
-{
-    var _r = round(random_range(0, 3));
-    soundfile = snorfs[_r];
-    audio_play_sound(soundfile, 1, false);
-    if (counter_snorfs == 0)
-    {
-        global.happiness++;
-        counter_snorfs = 5;
-    } else 
-    {
-        counter_snorfs--;
-    }
-}
+
 
 
 // movement 
@@ -56,8 +43,8 @@ if (_hor != 0 or _ver != 0)
 {
     if (_ver > 0) sprite_index = spr_player_walk_down;
     else if (_ver < 0) sprite_index = spr_player_walk_up;
-    else if (_hor > 0) sprite_index = spr_player_walk_right;
-    else if (_hor < 0) sprite_index = spr_player_walk_left;
+    else if (_hor > 0) sprite_index = spr_player_walk_right_1;
+    else if (_hor < 0) sprite_index = spr_player_walk_left_1;
         
     //if (counter_footsteps == 0)
     //{
@@ -71,27 +58,27 @@ if (_hor != 0 or _ver != 0)
 else 
 { 
 
-    if (sprite_index == spr_player_walk_down) 
-{
-    // idle animations 
-    var _r = round(random_range(0, 1));
-    switch (_r) 
-{ 
-        case 0:
-            sprite_index = spr_player_idle_front;
-        break; 
-        
-        case 1:
-            sprite_index = spr_player_idle_front_alt;
-        break;
-        
-        default:
-            sprite_index = Sprite20;
-            break;
-    }        
-    }
-    else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
-    else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_right;
-    else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
+    //if (sprite_index == spr_player_walk_down) 
+        //{
+              //// idle animations 
+                ////var _r = round(random_range(0, 1));
+                ////switch (_r) 
+            ////{ 
+                    ////case 0:
+                        ////sprite_index = spr_player_idle_front;
+                    ////break; 
+                    ////
+                    ////case 1:
+                        ////sprite_index = spr_player_idle_front_alt;
+                    ////break;
+                    ////
+                    ////default:
+                        ////sprite_index = Sprite20;
+                        ////break;
+                ////}        
+            //}
+    //else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
+    //else if (sprite_index == spr_player_walk_right_1) sprite_index = spr_player_idle_right;
+    //else if (sprite_index == spr_player_walk_left_1) sprite_index = spr_player_idle_left;
 } 
 
