@@ -16,6 +16,7 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
     { 
         create_dialogue(dialog[has_interacted]);
         has_interacted = 1;
+        global.quests[char_index].quest_started = true;
         
     }
 }

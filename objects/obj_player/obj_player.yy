@@ -38,6 +38,9 @@
     "name":"spr_player_idle_front",
     "path":"sprites/spr_player_idle_front/spr_player_idle_front.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_player_idle_front",
+    "path":"sprites/spr_player_idle_front/spr_player_idle_front.yy",
+  },
   "visible":true,
 }

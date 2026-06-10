@@ -311,11 +311,26 @@ dg_noodle = [
         name: "Noodle",
         msg: "A peach! Oooh that's exactly what I wanted.",
         portrait: spr_npc_noodle_port,  // TODO 
+    },
+    {
+        name: "Noodle",
+        msg: "OM NOM NOM NOM",
+        portrait: spr_npc_noodle_port_eating,  // TODO 
+    },
+    {
+        name: "Noodle",
+        msg: "Aaaaah.",
+        portrait: spr_npc_noodle_port,  // TODO 
+    },
+     {
+        name: "Noodle",
+        msg: "Thank you! I guess you can go through now.",
+        portrait: spr_npc_noodle_port,  // TODO 
     }],
-        // after quest 2
+        // after quest 3
     [{
         name: "Noodle",
-        msg: "Thansk for the peach!",
+        msg: "Thanks for the peach!",
         portrait: spr_npc_noodle_port, // TODO
     }],
 ]

@@ -24,7 +24,7 @@
   ],
   "name":"spr_player_talk",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"player",
     "path":"folders/sprites/player.yy",
@@ -79,7 +79,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":8,
     "yorigin":0,
   },
   "swatchColours":null,
