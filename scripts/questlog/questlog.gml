@@ -6,17 +6,19 @@ happiness = 0;
 
 inventory = [];
 
-//inventory = [
-//{
-    //name: "pinwheel",
-    //sprite: spr_ass_pinwheel_1,
-    //txt: "A pinwheel I found in a chest."
-//},
-//{
-    //name: "n/a",
-    //sprite: Sprite20,
-    //txt: "something else."
-//}];
+inventory = [
+{
+    name: "pinwheel",
+    sprite: spr_ass_pinwheel_1,
+    txt: "A pinwheel I found in a chest.",
+    found : false
+},
+{
+    name: "peach fruit",
+    sprite: spr_fruit,
+    txt: "A scrumptious peach fruit.",
+    found : false
+}];
 
 // ----------------------------------------------------------------------------------
 
@@ -74,7 +76,7 @@ quests = [
         quest_started : false,
         quest_done : false,
     quest_started_msg: "Noodle won't let me go to the lake until she gets something to eat.",
-    quest_done_msg: "",
+    quest_done_msg: "I gave Noodle the peach I found and hse let me through.",
     },
     
     { name: "pepper",

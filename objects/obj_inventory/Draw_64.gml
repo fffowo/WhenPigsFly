@@ -30,19 +30,25 @@ for (var _i = 0; _i < array_length(global.quests); _i++)
 
 var _x = 25;
 var _y = 255;
+
+
 if (array_length(global.inventory) > 0)
 {
     for (var _i = 0; _i < array_length(global.inventory); _i++)
     {
+        
         //draw_text(_x, _y + (_margin*_i), $"{inventory[_i].name}");
         draw_sprite(global.inventory[_i].sprite, 0, _x, _y + (_margin*_i));
         draw_text(_x + 120, _y + (_margin*_i), $"{global.inventory[_i].txt}");
+        
+        draw_text(_x + 130, _y + (_margin*_i) + 20, $"{global.inventory[_i].found}");
     } 
 }
 else 
 {
     draw_text(_x, _y*1, "I haven't found anything interesting yet.");
 }
+
 
 
 //draw_sprite_ext(spr_frame, 0, 20, 20, 5, 5, 0, c_white, 1);

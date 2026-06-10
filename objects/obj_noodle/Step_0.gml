@@ -17,9 +17,22 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
     if (keyboard_check_pressed(input_key))
     { 
         path_speed = 0;
-        create_dialogue(dialog[has_interacted]);
-        has_interacted = 1;
 
+        if (array_contains(obj_inventory.found_items, "peach fruit"))
+        {
+            create_dialogue(dialog[2]);
+            global.quests[char_index].quest_done = true;
+        }
+        
+        if (global.quests[char_index].quest_done) {
+            create_dialogue(dialog[3]);
+        }
+        else 
+        {
+            create_dialogue(dialog[has_interacted]);
+            has_interacted = 1;
+            global.quests[char_index].quest_started = true;
+        }
     }
 }
 else 

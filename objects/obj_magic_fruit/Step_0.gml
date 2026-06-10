@@ -12,7 +12,10 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
             }
         ]);
         
-        array_insert(global.inventory, -1, item);
+        //array_insert(global.inventory, -1, item);
+        
+        global.inventory[0][$ "found"] = true;
+
         instance_destroy(self);
     }
 }

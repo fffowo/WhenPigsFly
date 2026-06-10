@@ -190,12 +190,12 @@ dg_ziggy = [
 dg_dominik = [
     [{
         name: "Dominik",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_dominik_port,
         msg: "I'm making sure nobody goes into the woods."   
     }],
     [{ 
         name: "Dominik",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_dominik_port,
         msg: "It's dangerous in there."  
     }]
 ]
@@ -207,12 +207,12 @@ dg_pepper = [
     [{
         name: "Pepper",
         msg: "*sigh*",
-                portrait: spr_npc_blank,   
+        portrait: spr_pepper_port_side,   
     }],
     [{
         name: "Pepper",
-        msg: "*sigh*",
-        portrait: spr_npc_blank,   
+        msg: "*siiiigh*",
+        portrait: spr_pepper_port_side,   
     },
     {
         name: "You",
@@ -227,12 +227,12 @@ dg_sophie = [
     [{
         name: "Sophie",
         msg: "Careful please!", 
-        portrait: spr_npc_blank,  
+        portrait: spr_sophie_port_happy,  
     },
     {
         name: "Sophie",
-        msg: "I'm growing a sunflower here.",
-                portrait: spr_npc_blank,
+        msg: "I'm growing a sunflower here.", 
+        portrait: spr_sophie_port_happy,
     }],
     [{ 
         name: "Sophie",
@@ -252,7 +252,7 @@ dg_leonard = [
     [{ 
         name: "Leonard",
         msg: "I'm very smart.",
-                portrait: spr_npc_blank, 
+        portrait: spr_npc_blank, 
     },
     { 
         name: "You",
@@ -268,18 +268,56 @@ dg_noodle = [
         name: "Noodle",
         msg: "I'm not letting you trough.",
         portrait: spr_npc_noodle_port,    
-    }],
-    [
-{
+    },
+    {
         name: "You",
-        msg: "Noodle! C'mon!",
+        msg: "What? Why?!",
         portrait: spr_player_port_shocked,    
-    },    
+    },
     {
         name: "Noodle",
-        msg: "Nuh-uh.",
+        msg: "Because I'm hungry.",
+        portrait: spr_npc_noodle_port,    
+    },
+    {
+        name: "You",
+        msg: "What kind of a reason is that?",
+        portrait: spr_player_port_question,    
+    },
+    {
+        name: "Noodle",
+        msg: "Just bring me something to eat. Something sweet.",
+        portrait: spr_npc_noodle_port,    
+    },
+        {
+        name: "You",
+        msg: "Get your own food, Noodle!!",
+        portrait: spr_player_port_sad,    
+    }],
+        // talk again 1
+    [{
+        name: "Noodle",
+        msg: "Find something yet?",
         portrait: spr_npc_noodle_port,   
-    }]
+    },
+    {
+        name: "You",
+        msg: "No...",
+        portrait: spr_player_port_sad,    
+    }],
+
+    // end quest 2
+    [{
+        name: "Noodle",
+        msg: "A peach! Oooh that's exactly what I wanted.",
+        portrait: spr_npc_noodle_port,  // TODO 
+    }],
+        // after quest 2
+    [{
+        name: "Noodle",
+        msg: "Thansk for the peach!",
+        portrait: spr_npc_noodle_port, // TODO
+    }],
 ]
 
 // ----------------------- Milo ----------------------
@@ -289,17 +327,17 @@ dg_milo = [
     {
         name: "Milo",
         msg: "Ugh...",
-        portrait: spr_npc_sad, 
+        portrait: spr_npc_milo_port_sad, 
     },
     {
         name: "You",
-        msg: "Hey Milo, what's up?",
+        msg: "Hey Milo, what are you doing skulking all the way out here ?",
         portrait: spr_player_port_question, 
     },    
     {
         name: "Milo",
         msg: "I had a fight with Daisy.",
-        portrait: spr_npc_sad, 
+        portrait: spr_npc_milo_port_sad, 
     },
     {
         name: "You",
@@ -309,17 +347,17 @@ dg_milo = [
         {
         name: "Milo",
         msg: "Yeah, and now she's run off and I can't find her...",
-        portrait: spr_npc_sad, 
+        portrait: spr_npc_milo_port_sad, 
     },
             {
         name: "Milo",
         msg: "I bet she's hiding somewhere...",
-        portrait: spr_npc_sad, 
+        portrait: spr_npc_milo_port_sad, 
     },
     {
         name: "Milo",
         msg: "If you see her, can you tell her I'm sorry?",
-        portrait: spr_npc_sad, 
+        portrait: spr_npc_milo_port_sad, 
     },
     {
         name: "You",
@@ -329,19 +367,19 @@ dg_milo = [
         {
         name: "Milo",
         msg: "Thanks.",
-        portrait: spr_npc_happy, 
+        portrait: spr_npc_milo_port_happy, 
     }],
     // talk again 1
     [{
         name: "Milo",
         msg: "Can you go check on Daisy for me?",
-        portrait: spr_npc_sad
+        portrait: spr_npc_milo_port_sad
     }],
     // after quest 2
     [{
         name: "Milo",
         msg: "She's okay? Thank you for checking.",
-        portrait: spr_npc_happy, 
+        portrait: spr_npc_milo_port_happy, 
     }]
 ];
 
