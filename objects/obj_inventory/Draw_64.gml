@@ -28,7 +28,12 @@ draw_set_color(c_white);
 // write message
 _dx += 20;
 _dy += 45;
+
 draw_text_ext(_dx, _dy, $"{msg} ({happiness})", -1, 650);
+
+// debug
+var _test = check_inventory_for_item("peach fruit");
+draw_text_ext(_dx, _dy + 25, $"{_test}", -1, 650);
 
 
 

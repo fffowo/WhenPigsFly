@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_towel",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pinwheel",
+  "eventList":[],
   "managed":true,
-  "name":"obj_towel",
+  "name":"obj_pinwheel",
   "overriddenProperties":[],
   "parent":{
     "name":"items",
     "path":"folders/objects/items.yy",
   },
-  "parentObjectId":{
-    "name":"obj_item",
-    "path":"objects/obj_item/obj_item.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_towel",
-    "path":"sprites/spr_towel/spr_towel.yy",
+    "name":"spr_ass_pinwheel_1",
+    "path":"sprites/spr_ass_pinwheel_1/spr_ass_pinwheel_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

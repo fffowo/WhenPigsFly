@@ -136,6 +136,7 @@
     {"name":"inst_74EDB557","path":"rooms/Room_Outside/Room_Outside.yy",},
     {"name":"inst_54186515","path":"rooms/Room_Outside/Room_Outside.yy",},
     {"name":"inst_4344E70F","path":"rooms/Room_Outside/Room_Outside.yy",},
+    {"name":"inst_143A3816","path":"rooms/Room_Outside/Room_Outside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -330,6 +331,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"walk_anim","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resource":{"name":"spr_npc_bitty_walk_front","path":"sprites/spr_npc_bitty_walk_front/spr_npc_bitty_walk_front.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_npc_bitty_walk_front",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"npc_name","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"bitty",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":108.0,"y":176.0,},
+        {"$GMRInstance":"v4","%Name":"inst_143A3816","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_143A3816","objectId":{"name":"obj_stick","path":"objects/obj_stick/obj_stick.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},"propertyId":{"name":"name","path":"objects/obj_item/obj_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"stick",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},"propertyId":{"name":"txt","path":"objects/obj_item/obj_item.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"A cool stick I found on the floor. It's pretty long.",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},"propertyId":{"name":"sprite","path":"objects/obj_item/obj_item.yy",},"resource":{"name":"spr_stick","path":"sprites/spr_stick/spr_stick.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_stick",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":441.0,"y":416.0,},
       ],"layers":[],"name":"Instances_obj","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_ground","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3B9013AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B9013AE","objectId":{"name":"obj_ground_tile","path":"objects/obj_ground_tile/obj_ground_tile.yy",},"properties":[

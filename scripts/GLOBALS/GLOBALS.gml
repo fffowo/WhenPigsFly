@@ -9,11 +9,9 @@ function check_inventory_for_item(_name = "")
         {
             return _i;
         }
-        else 
-        {
-            return -1;
-        }
+
     }
+     return -1;
 }
 
 // @description returns the index of the character for the quest array

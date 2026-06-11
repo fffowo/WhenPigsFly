@@ -1,6 +1,6 @@
 if (instance_exists(obj_dialogue)) exit; 
 
-if (instance_exists(obj_player) && distance_to_object(obj_player) < 12)
+if (instance_exists(obj_player) && distance_to_object(obj_player) < 16)
 {
     if (keyboard_check_pressed(vk_space))
     { 

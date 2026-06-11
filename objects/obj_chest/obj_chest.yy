@@ -8,8 +8,8 @@
   "name":"obj_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"items",
+    "path":"folders/objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

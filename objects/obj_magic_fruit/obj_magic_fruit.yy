@@ -6,8 +6,8 @@
   "name":"obj_magic_fruit",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"items",
+    "path":"folders/objects/items.yy",
   },
   "parentObjectId":{
     "name":"obj_item",
