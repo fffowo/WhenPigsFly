@@ -62,7 +62,7 @@ draw_text(_x, _y, "People I've met");
 _y += _margin;
 var _item_y = _y;
 var _counter = 1;
-draw_set_font(Font_pixel);
+draw_set_font(Font_sprout_sm);
 for (var _i = 0; _i < array_length(global.quests); _i++)
 {
    
@@ -111,7 +111,7 @@ _y += _margin * 1.5;
 draw_text(_item_x, _y, "Things I found");
 
 // row 2
-draw_set_font(Font_pixel);
+draw_set_font(Font_sprout_sm);
 _y += _margin;
 _item_y = _y;
 _item_x = _x;

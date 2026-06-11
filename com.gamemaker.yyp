@@ -54,6 +54,7 @@
   "resources":[
     {"id":{"name":"Font_debug","path":"fonts/Font_debug/Font_debug.yy",},},
     {"id":{"name":"Font_pixel","path":"fonts/Font_pixel/Font_pixel.yy",},},
+    {"id":{"name":"Font_sprout_sm","path":"fonts/Font_sprout_sm/Font_sprout_sm.yy",},},
     {"id":{"name":"Font_sprout","path":"fonts/Font_sprout/Font_sprout.yy",},},
     {"id":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},},
     {"id":{"name":"obj_bitty","path":"objects/obj_bitty/obj_bitty.yy",},},
