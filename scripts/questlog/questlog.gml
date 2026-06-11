@@ -5,12 +5,27 @@ happiness = 0;
 // ----------------------------------------------------------------------------------
 
 inventory = [];
-
+//
 //inventory = [
     //{
         //name: "pinwheel",
         //sprite: spr_ass_pinwheel_1,
         //txt: "A pinwheel I found in a chest.",
+    //},
+        //{
+        //name: "peach fruit",
+        //sprite: spr_fruit,
+        //txt: "A peach fruit",
+    //},
+     //{
+        //name: "towel",
+        //sprite: spr_towel,
+        //txt: "Bonnie's towel",
+    //},
+         //{
+        //name: "something else",
+        //sprite: spr_ass_circle,
+        //txt: "lorem ipsum",
     //},
     //
 //];

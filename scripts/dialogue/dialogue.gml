@@ -527,13 +527,13 @@ dg_kiwi = [
         [{
         name: "Kiwi",
         msg: "ü",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_kiwi_port,  
     }],
     // 1 
     [{
         name: "Kiwi",
         msg: "î",
-        portrait: spr_npc_blank,  
+        portrait: spr_npc_kiwi_port_sad,  
     },
 ],
 ]

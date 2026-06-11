@@ -3,7 +3,7 @@ if (instance_exists(obj_dialogue)) exit;
 
 if (path_exists(npc_path))
 {
-    walk_sprite_direction([walk_anim, spr_npc_bitty_walk_up, walk_anim, spr_npc_bitty_walk_front]);
+    walk_sprite_direction([spr_npc_bitty_walk_right, spr_npc_bitty_walk_up, spr_npc_bitty_walk_left, spr_npc_bitty_walk_front]);
 
 }
 

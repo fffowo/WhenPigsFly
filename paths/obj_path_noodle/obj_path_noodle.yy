@@ -9,8 +9,8 @@
     "path":"folders/objects/chars.yy",
   },
   "points":[
-    {"speed":100.0,"x":40.0,"y":331.0,},
-    {"speed":100.0,"x":40.0,"y":373.0,},
+    {"speed":100.0,"x":31.0,"y":71.0,},
+    {"speed":100.0,"x":31.0,"y":111.0,},
   ],
   "precision":1,
   "resourceType":"GMPath",

@@ -1,4 +1,4 @@
-
+//
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
@@ -38,8 +38,8 @@ draw_text_ext(_dx, _dy, $"{msg} ({happiness})", -1, 650);
 var _x = 320 / 2 - (sprite_get_width(spr_frame));
 var _y = _dy + 100;
 var _margin = 32;
-var _item_x = sprite_get_width(spr_frame);
-var _x_scale = 8;
+var _item_x = sprite_get_width(spr_frame) + (48*2);
+var _x_scale = 5;
 var _y_scale = 3;
 var _item_scale = 3;
 
@@ -56,6 +56,7 @@ draw_sprite_ext(spr_frame, 0, _x, _y, _x_scale, _y_scale, 0, c_white, 1);
 
 // row 2
 _y += _margin * 1.5;
+_x += _margin * 1.5;
 draw_text(_x, _y, "People I've met");
 
 // row 3
@@ -76,7 +77,7 @@ for (var _i = 0; _i < array_length(global.quests); _i++)
     //draw_text(_margin + 120, _margin*_i  + 1, $"{global.quests[_i].quest_done}");
     
     // portrait 
-    draw_sprite_ext(global.quests[_i].portrait, 0, _item_x, _item_y + (_margin*_counter), 1, 1, 0, c_white, 1);
+    draw_sprite_ext(global.quests[_i].portrait, 0, _x, _item_y + (_margin*_counter), 1, 1, 0, c_white, 1);
        
     var _txt = global.quests[_i].quest_started_msg;
 
@@ -87,7 +88,7 @@ for (var _i = 0; _i < array_length(global.quests); _i++)
             _txt = global.quests[_i].quest_done_msg;
         } 
     
-    draw_text(_item_x + 50, _item_y + (_margin*_counter) + 8, $"{_txt}");
+    draw_text(_x + 50, _item_y + (_margin*_counter) + 8, $"{_txt}");
    
        _counter++;
    } 
@@ -99,16 +100,19 @@ for (var _i = 0; _i < array_length(global.quests); _i++)
 
 
 
-// -----------------------------------
+// -- ITEMS ---------------------------------
 
 // FRAME 2
 draw_set_font(Font_sprout);
-_y += 300;
-draw_sprite_ext(spr_frame, 0, _x, _y, 5, 2, 0, c_white, 1);
+//_y += 300;
+_y = _dy + 100;
+_x = display_get_gui_width() / 2;
+draw_sprite_ext(spr_frame, 0, _x, _y, _x_scale, _y_scale, 0, c_white, 1);
 
 // row 1
 _y += _margin * 1.5;
-draw_text(_item_x, _y, "Things I found");
+_x =+ 705;
+draw_text(_x, _y, "Things I found");
 
 // row 2
 draw_set_font(Font_sprout_sm);
@@ -126,10 +130,10 @@ if (array_length(global.inventory) > 0)
         
         // sprite
         //draw_sprite(global.inventory[_i].sprite, 0, _item_x, _y + (_margin*_i));
-        draw_sprite_ext(global.inventory[_i].sprite, 0, _item_x, _item_y + (_margin*_i), _item_scale, _item_scale, 0, c_white, 1);
+        draw_sprite_ext(global.inventory[_i].sprite, 0, _x, _item_y + (_margin*_i), _item_scale, _item_scale, 0, c_white, 1);
                 
         // description
-        draw_text(_item_x + 120, _y + (_margin*_i), $"{global.inventory[_i].txt}");
+        draw_text(_x + 120, _y + (_margin*_i), $"{global.inventory[_i].txt}");
 
         
     } 
