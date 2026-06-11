@@ -5,7 +5,14 @@ function check_inventory_for_item(_name = "")
 { 
     for (var _i = 0; _i < array_length(global.inventory); _i++)
     {
-        if global.inventory[_i][$ "name"] == _name return true;
+        if (global.inventory[_i][$ "name"] == _name) 
+        {
+            return _i;
+        }
+        else 
+        {
+            return -1;
+        }
     }
 }
 
