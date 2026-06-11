@@ -22,8 +22,14 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 16)
             }
         ]);
         
+        
+        global.happiness += 10;
+        
         array_insert(global.inventory, -1, item);
         
         instance_destroy(self);
+
     }
+    
+
 }

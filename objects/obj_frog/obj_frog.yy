@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pinwheel",
+  "%Name":"obj_frog",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pinwheel",
+  "name":"obj_frog",
   "overriddenProperties":[],
   "parent":{
-    "name":"items",
-    "path":"folders/objects/items.yy",
+    "name":"chars",
+    "path":"folders/objects/chars.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ass_pinwheel_1",
-    "path":"sprites/spr_ass_pinwheel_1/spr_ass_pinwheel_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

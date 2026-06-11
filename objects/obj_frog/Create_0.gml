@@ -1,0 +1,1 @@
+counter_snd = 6*60;
