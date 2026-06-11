@@ -256,6 +256,8 @@
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},},
     {"id":{"name":"spr_daisy_crying_1","path":"sprites/spr_daisy_crying_1/spr_daisy_crying_1.yy",},},
     {"id":{"name":"spr_daisy_crying","path":"sprites/spr_daisy_crying/spr_daisy_crying.yy",},},
+    {"id":{"name":"spr_daisy_port_happy","path":"sprites/spr_daisy_port_happy/spr_daisy_port_happy.yy",},},
+    {"id":{"name":"spr_daisy_port_sad","path":"sprites/spr_daisy_port_sad/spr_daisy_port_sad.yy",},},
     {"id":{"name":"spr_daisy","path":"sprites/spr_daisy/spr_daisy.yy",},},
     {"id":{"name":"spr_fish_1","path":"sprites/spr_fish_1/spr_fish_1.yy",},},
     {"id":{"name":"spr_fish_2","path":"sprites/spr_fish_2/spr_fish_2.yy",},},

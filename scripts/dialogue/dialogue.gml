@@ -406,12 +406,12 @@ dg_daisy = [
     [{
         name: "Daisy",
         msg: "*sniff sniff*",
-        portrait: spr_npc_sad,  
+        portrait: spr_daisy_port_sad,  
     },
     {
         name: "Daisy",
         msg: "...",
-        portrait: spr_npc_sad, 
+        portrait: spr_daisy_port_sad, 
     },
     {
         name: "You",
@@ -429,28 +429,28 @@ dg_daisy = [
     [{
         name: "Daisy",
         msg: "*sniff sniff*",
-        portrait: spr_npc_sad, 
+        portrait: spr_daisy_port_sad, 
     },
         {
         name: "Daisy",
         msg: "Oh? Hey you. *snffff*",
-        portrait: spr_npc_sad, 
+        portrait: spr_daisy_port_sad, 
     },
         {
         name: "Daisy",
         msg: "Are you checking up on me?\nThat's so nice of you.",
-        portrait: spr_npc_happy, 
+        portrait: spr_daisy_port_sad, 
     },
         {
         name: "Daisy",
         msg: "Thank you! I feel better already.",
-        portrait: spr_npc_happy, 
+        portrait: spr_daisy_port_happy, 
     }],
     // quest finished 3
     [{
         name: "Daisy",
         msg: "Thank you! I feel better already.",
-        portrait: spr_npc_happy, 
+        portrait: spr_daisy_port_happy, 
     }]
 ]
 
