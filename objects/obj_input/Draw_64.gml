@@ -17,6 +17,7 @@ draw_text_transformed(26*32, 32*5, $"{name_str}", text_scale, text_scale, 0);
 var _x = draw_x;
 var _y = draw_y;
 
+
 //var _x_char = 128;  // further right on screen: a b c d e () A ....
 //var _y_char = _y;   // same row as x 
 
@@ -35,7 +36,11 @@ for (row = 1; row <= (array_length(letters)); row++)
     _x += move_speed_x*text_scale;    
     //_x_char += 16;
 
-        if (row % 7 == 0)
+   if (row == array_length(letters))
+    {
+        draw_sprite_ext(spr_ui_yes_hover, 0, _x, _y, text_scale, text_scale, 0, c_white, 1);
+
+    } else if (row % 7 == 0)
     {
         _x = draw_x;
         _y += move_speed_y*text_scale;
@@ -43,8 +48,9 @@ for (row = 1; row <= (array_length(letters)); row++)
         //_x_char = 70 + (_x * 2);
         //_y_char += 32;
         //draw_text(_x, _y, "\n");
-    }    
+    } 
 } 
+
 
 
 

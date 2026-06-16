@@ -1,9 +1,5 @@
 
-// TODO confirm 
-if (keyboard_check_pressed(vk_escape)) {
-    room_goto(Room_Outside);
-    global.player_name = name_str;
-}
+
 
 
 var _hor = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left);
@@ -15,11 +11,15 @@ var _yloc = y / move_speed_y - 1;
 move_and_collide(_hor * move_speed_x, _ver * move_speed_y, 1, undefined, undefined, undefined);
 
 
-
-
 if (keyboard_check_pressed(vk_enter))
 {
-    if (name_len < name_max)
+    // TODO confirm 
+    if (_xloc == 6 && _yloc == 3) {
+        room_goto(Room_Outside);
+        global.player_name = name_str;
+        instance_destroy();
+    }
+    else if (name_len < name_max)
     {
         //array_insert(input, -1, [_xloc, _yloc]);
         //array_copy(name, array_length(input)-1, input, 0, 1);
