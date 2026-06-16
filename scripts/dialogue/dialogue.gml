@@ -17,6 +17,7 @@ char_colors = {
     "You": c_aqua,
     "Sign": c_black,
     "NPC": c_black,
+    "Follower": c_black,
     "Sibling": c_gray,
     "Mama": c_gray,
     
@@ -51,6 +52,7 @@ txt_sign_peak = [{
         msg: "Mt. Peekpeak lorem ipsum dolor sit amet, the quick brown fox jumps over the lazy dog. Lorem ipsum lorem ipsum."
     }];
 
+
 dg_npc_new = "Hello world!";
 
 dg_npc = [
@@ -58,13 +60,15 @@ dg_npc = [
     [{
         name: "Follower",
         portrait: spr_npc_blank,
-        msg: "You want me to follow you? Okay!"
+        msg: "You want me to follow you? Okay!",
+        font: Font_pixel
     }],
     // 1
     [{
         name: "Follower",
         portrait: spr_npc_blank,
-        msg: "I'll stop following you!"
+        msg: "I'll stop following you!",
+        font: Font_pixel
     }]
 ];
 
@@ -523,17 +527,34 @@ dg_olive = [
 
 // ---------- kIWI ---------------
 
+//dg_kiwi = [
+        //[{
+        //name: "Kiwi",
+        //msg: "ü",
+        //portrait: spr_npc_kiwi_port,  
+    //}],
+    //// 1 
+    //[{
+        //name: "Kiwi",
+        //msg: "î",
+        //portrait: spr_npc_kiwi_port_sad,  
+    //},
+//],
+//]
+
 dg_kiwi = [
         [{
         name: "Kiwi",
-        msg: "ü",
+        msg: "( ; w ;)",
         portrait: spr_npc_kiwi_port,  
+        font: Font_kiwi
     }],
     // 1 
     [{
         name: "Kiwi",
-        msg: "î",
+        msg: "( ; w;`) ?",
         portrait: spr_npc_kiwi_port_sad,  
+        font: Font_kiwi
     },
 ],
 ]

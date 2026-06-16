@@ -1,5 +1,5 @@
 
-if (instance_exists(obj_dialogue)) exit;
+if (instance_exists(obj_dialogue) || instance_exists(obj_input)) exit;
 
 if (!instance_exists(obj_inventory) && keyboard_check_pressed(vk_escape))
 {
@@ -26,11 +26,11 @@ _ver = lengthdir_y(_len, _dir);
 xspeed = _hor * move_speed;
 yspeed = _ver * move_speed; 
 
-if (place_meeting(x + xspeed, y, [layer_tilemap_get_id("Tiles_col"), obj_coll, obj_npc_parent]))
+if (place_meeting(x + xspeed, y, [obj_coll, obj_npc_parent]))
 {
     xspeed = 0;
 }
-if (place_meeting(x, y + yspeed, [layer_tilemap_get_id("Tiles_col"), obj_coll, obj_npc_parent]))
+if (place_meeting(x, y + yspeed, [obj_coll, obj_npc_parent]))
 {
     yspeed = 0;
 }

@@ -1,3 +1,7 @@
+coll = [obj_coll, obj_npc_parent]
+
+player_name = "";
+
 
 // @param _name
 // @description checks the global inventory for an entry of a specified name

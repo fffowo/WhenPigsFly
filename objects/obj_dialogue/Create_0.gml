@@ -10,7 +10,7 @@ input_key = vk_space;
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 
-alarm[0] = 5;
+alarm[0] = 5; // noise
 
 counter_snd = 0;
 squicks = [snd_squick, snd_squick2];

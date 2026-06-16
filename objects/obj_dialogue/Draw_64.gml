@@ -4,7 +4,14 @@ var _dy = gui_h * 0.7; // 70% down at the bottom of the screen
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
-draw_set_font(Font_sprout);
+if (variable_instance_exists(messages[current_message], "font")){
+    font = messages[current_message].font;
+}
+else {
+    font = Font_sprout;
+}
+
+draw_set_font(font);
 
 // textbox
 draw_sprite_ext(spr_ass_txtbx, 0, _dx , _dy, 3, 3, 0, c_white, 1);

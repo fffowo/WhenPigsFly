@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ass_cross",
+    "path":"sprites/spr_ass_cross/spr_ass_cross.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
