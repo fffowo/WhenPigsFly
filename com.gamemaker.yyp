@@ -335,6 +335,8 @@
     {"id":{"name":"spr_npc_olive_port","path":"sprites/spr_npc_olive_port/spr_npc_olive_port.yy",},},
     {"id":{"name":"spr_npc_olive","path":"sprites/spr_npc_olive/spr_npc_olive.yy",},},
     {"id":{"name":"spr_npc_sad","path":"sprites/spr_npc_sad/spr_npc_sad.yy",},},
+    {"id":{"name":"spr_npc_ziggy_roll_1","path":"sprites/spr_npc_ziggy_roll_1/spr_npc_ziggy_roll_1.yy",},},
+    {"id":{"name":"spr_npc_ziggy_roll_2","path":"sprites/spr_npc_ziggy_roll_2/spr_npc_ziggy_roll_2.yy",},},
     {"id":{"name":"spr_npc1_port","path":"sprites/spr_npc1_port/spr_npc1_port.yy",},},
     {"id":{"name":"spr_npc1_roll_left","path":"sprites/spr_npc1_roll_left/spr_npc1_roll_left.yy",},},
     {"id":{"name":"spr_npc1_roll","path":"sprites/spr_npc1_roll/spr_npc1_roll.yy",},},

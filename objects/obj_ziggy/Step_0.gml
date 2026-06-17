@@ -4,7 +4,9 @@ if (instance_exists(obj_dialogue)) {
 
 if (path_exists(npc_path))
 {
-    walk_sprite_direction([spr_npc1_roll, spr_npc1_roll_left, spr_npc1_roll_left, spr_npc1_roll]);
+    //sprites = [spr_npc_ziggy_roll_1, spr_npc_ziggy_roll_2, spr_npc_ziggy_roll_1, spr_npc_ziggy_roll_2];
+
+    walk_sprite_direction(sprites);
 }
 
 
