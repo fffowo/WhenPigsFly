@@ -126,19 +126,19 @@ dg_camilla = [
     // first 0
     [{
         name: "Camilla",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_camilla_port,
         msg: "Oh! Careful, please don't step on me!"
     }],
     // second 1
     [{
         name: "Camilla",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_camilla_port,
         msg: "Say..."
     }
     ,
     { 
         name: "Camilla",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_camilla_port,
         msg: "Would you do me a favour?"
     }]
 ];
@@ -149,19 +149,19 @@ dg_leo = [
     // first 0
     [{
         name: "Leo",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_leo_port_sad,
         msg: "Oh no oh no oh no..."
     }],
     // second 1
     [{
         name: "Leo",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_leo_port_sad,
         msg: "I lost my glasses..."
     }
     ,
     { 
         name: "Leo",
-        portrait: spr_npc_blank,
+        portrait: spr_npc_leo_port_sad,
         msg: "Oh no..."
     }]
 ];
@@ -228,6 +228,7 @@ dg_pepper = [
 // ------------------ sophie -----------------------------
 
 dg_sophie = [
+    // 0 first
     [{
         name: "Sophie",
         msg: "Careful please!", 
@@ -238,11 +239,44 @@ dg_sophie = [
         msg: "I'm growing a sunflower here.", 
         portrait: spr_sophie_port_happy,
     }],
+    // 1 has interacted
     [{ 
         name: "Sophie",
         msg: "... it's not going very well, to be honest.",
-        portrait: spr_npc_blank, 
-    }]
+        portrait: spr_npc_blank, // TODO 
+    }],
+    // 2 QUEST START TRUE
+        [{ 
+        name: "You",
+        msg: "Maybe you could try watering it?",
+        portrait: spr_player_port_question, 
+    },
+    { 
+        name: "Sophie",
+        msg: "I'd love to, smartiepants.",
+        portrait: spr_npc_blank, // TODO 
+    },
+        { 
+        name: "You",
+        msg: "But?",
+        portrait: spr_player_port_question,
+    },
+        { 
+        name: "Sophie",
+        msg: "I don't have a watering can.",
+        portrait: spr_npc_blank, // TODO 
+    },
+            { 
+        name: "You",
+        msg: "Oh.",
+        portrait: spr_player_port_shocked,
+    },
+                { 
+        name: "You",
+        msg: "Yeah I can see how that would be a problem.",
+        portrait: spr_player_port_sad,
+    },
+    ]
 ]
 
 // ------------------ leonard -----------------------------

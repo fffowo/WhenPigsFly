@@ -1,0 +1,32 @@
+if (instance_exists(obj_dialogue)) exit;
+if (instance_exists(obj_inventory)) exit;
+
+
+if (path_exists(npc_path))
+{
+    sprite_index = walk_anim;
+}
+
+
+// dialogue
+if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
+{
+    can_talk = true;
+    if (keyboard_check_pressed(input_key))
+    { 
+        if (global.quests[char_index].quest_started && global.inspected_flower)
+        {
+            create_dialogue(dialog[2]);
+        }
+        
+        create_dialogue(dialog[has_interacted]);
+        has_interacted = 1;
+        global.quests[char_index].quest_started = true;
+        
+    }
+    
+}
+else 
+{
+    can_talk = false;
+}

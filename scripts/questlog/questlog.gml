@@ -1,6 +1,8 @@
 
 happiness = 0;
-
+trigger_stick_txt = false;
+visit_house = false;
+inspected_flower = false;
 
 // ----------------------------------------------------------------------------------
 
@@ -30,6 +32,7 @@ inventory = [];
     //
 //];
 
+
 // ----------------------------------------------------------------------------------
 
 quests = [
@@ -43,7 +46,7 @@ quests = [
     },
     
         { name: "bonnie",
-    portrait : spr_npc_bitty_port,
+    portrait : spr_npc_blank,
     quest_started : false,
     quest_done : false,
     quest_started_msg: "Bonnie wants me to find her towel.",

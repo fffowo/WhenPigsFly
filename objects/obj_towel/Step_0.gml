@@ -6,10 +6,13 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 16)
     { 
         var _index = check_inventory_for_item("stick");
         if (_index == -1) {
+            
+            msg = global.quests[get_char_index("bonnie")].quest_started == true ? "Is that Bonnie's towel? " : "Is that a towel? ";
+            
             create_dialogue([
             {
                 name: "You",
-                msg: "Is that Bonnie's towel? I can't reach it from here...",
+                msg: string_concat(msg, "I can't reach it from here..."),
                 portrait: spr_player_port_question
             }
         ]);

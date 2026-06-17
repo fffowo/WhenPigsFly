@@ -9,8 +9,9 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
     create_dialogue([{
         name: "You",
         msg: "The soil looks dry...",
-        portrait: spr_npc_blank
-    }])        
+        portrait: spr_player_port_question
+    }])
+        global.inspected_flower = true;
     }
 
 }

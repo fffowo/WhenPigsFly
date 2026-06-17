@@ -9,8 +9,8 @@
   "name":"obj_sunflower",
   "overriddenProperties":[],
   "parent":{
-    "name":"terrain",
-    "path":"folders/objects/terrain.yy",
+    "name":"items",
+    "path":"folders/objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

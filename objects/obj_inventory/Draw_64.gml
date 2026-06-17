@@ -20,7 +20,7 @@ draw_sprite_ext(port, 0, 208, _dy + 20, 3, 3, 0, c_white, 1);
 // write name
 _dx = 370;
 _dy += 25;
-var _name = "You";
+var _name = global.player_name;
 draw_set_halign(fa_left);
 draw_text(_dx, _dy, _name);
 draw_set_color(c_white);

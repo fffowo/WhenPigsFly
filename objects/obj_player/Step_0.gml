@@ -26,11 +26,11 @@ _ver = lengthdir_y(_len, _dir);
 xspeed = _hor * move_speed;
 yspeed = _ver * move_speed; 
 
-if (place_meeting(x + xspeed, y, [obj_coll, obj_npc_parent]))
+if (place_meeting(x + xspeed, y, [obj_coll, obj_coll_viz, obj_npc_parent]))
 {
     xspeed = 0;
 }
-if (place_meeting(x, y + yspeed, [obj_coll, obj_npc_parent]))
+if (place_meeting(x, y + yspeed, [obj_coll, obj_coll_viz, obj_npc_parent]))
 {
     yspeed = 0;
 }

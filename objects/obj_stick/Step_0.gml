@@ -21,14 +21,11 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 16)
                 portrait: spr_player_port
             }
         ]);
-        
-        
-        global.happiness += 10;
-        
+        global.trigger_stick_txt = true;
         array_insert(global.inventory, -1, item);
-        
         instance_destroy(self);
 
+        
     }
     
 

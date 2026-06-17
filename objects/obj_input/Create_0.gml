@@ -19,7 +19,7 @@ draw_y = 32*7 + margin_y;
 //name = ["-", "-", "-", "-", "-", "-"];
 name_str = "";
 //input = [];
-name_max = 60;
+name_max = 6;
 name_len = 0;
 
 letters = [
