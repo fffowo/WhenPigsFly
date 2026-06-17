@@ -318,6 +318,8 @@
     {"id":{"name":"spr_npc_leo_port_happy","path":"sprites/spr_npc_leo_port_happy/spr_npc_leo_port_happy.yy",},},
     {"id":{"name":"spr_npc_leo_port_sad","path":"sprites/spr_npc_leo_port_sad/spr_npc_leo_port_sad.yy",},},
     {"id":{"name":"spr_npc_leo","path":"sprites/spr_npc_leo/spr_npc_leo.yy",},},
+    {"id":{"name":"spr_npc_leonard_1","path":"sprites/spr_npc_leonard_1/spr_npc_leonard_1.yy",},},
+    {"id":{"name":"spr_npc_leonard_glasses","path":"sprites/spr_npc_leonard_glasses/spr_npc_leonard_glasses.yy",},},
     {"id":{"name":"spr_npc_leonard","path":"sprites/spr_npc_leonard/spr_npc_leonard.yy",},},
     {"id":{"name":"spr_npc_mama","path":"sprites/spr_npc_mama/spr_npc_mama.yy",},},
     {"id":{"name":"spr_npc_milo_port_happy","path":"sprites/spr_npc_milo_port_happy/spr_npc_milo_port_happy.yy",},},

@@ -18,7 +18,8 @@ if (instance_exists(obj_player) && distance_to_object(obj_player) < 8)
             global.happiness += 10;
             global.quests[char_index].quest_done = true;
             sprite_index = spr_daisy;
-            draw_happy(obj_player.x, obj_player.y);
+            //draw_happy(obj_player.x, obj_player.y);
+            alarm[0] = -1;
         } 
         else { 
             audio_play_sound(snd_snorf04_low_slow, 1, false);
@@ -33,4 +34,4 @@ else
 }
 
 // reset 
-if (alarm[0] == 0 && global.quests[char_index] == false) alarm[0] = 60*30;
+if (alarm[0] == 0 && global.quests[char_index].quest_done == false) alarm[0] = 5*60;

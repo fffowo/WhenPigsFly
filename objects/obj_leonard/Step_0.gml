@@ -1,5 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-can_walk = 1;
-alarm[0] = 10*60;
+if (alarm[0] < 0) alarm[0] = 5*60;
